@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InformedVoter-ET</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">IV</div>
+          <div>
+            <h1>InformedVoter-ET</h1>
+            <p>Election positions from indexed debate evidence</p>
+          </div>
+        </div>
+
+        <nav class="nav-tabs" aria-label="Primary">
+          <button class="nav-tab active" data-view="topics" type="button">Topics</button>
+          <button class="nav-tab" data-view="parties" type="button">Parties</button>
+          <button class="nav-tab" data-view="chat" type="button">Chat</button>
+        </nav>
+
+        <div class="side-panel">
+          <label for="globalSearch">Search</label>
+          <input id="globalSearch" type="search" placeholder="Party, topic, stance..." autocomplete="off" />
+        </div>
+
+        <div class="stats" id="stats"></div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="viewEyebrow">Topic Comparison</p>
+            <h2 id="viewTitle">Browse Evidence by Category</h2>
+          </div>
+          <button class="icon-button" id="refreshButton" type="button" title="Refresh data" aria-label="Refresh data">
+            <span aria-hidden="true">↻</span>
+          </button>
+        </header>
+
+        <section class="view active" id="topicsView">
+          <div class="split-layout">
+            <div class="list-column">
+              <div class="section-heading">
+                <h3>Categories</h3>
+                <span id="topicCount">0</span>
+              </div>
+              <div class="topic-list" id="topicList"></div>
+            </div>
+            <div class="detail-column">
+              <div class="detail-toolbar">
+                <div>
+                  <p class="eyebrow">Selected Category</p>
+                  <h3 id="selectedTopicTitle">Select a topic</h3>
+                </div>
+                <select id="subTopicFilter" aria-label="Filter by sub-topic">
+                  <option value="">All sub-topics</option>
+                </select>
+              </div>
+              <div class="cards-grid" id="topicCards"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="partiesView">
+          <div class="split-layout">
+            <div class="list-column">
+              <div class="section-heading">
+                <h3>Parties</h3>
+                <span id="partyCount">0</span>
+              </div>
+              <div class="party-list" id="partyList"></div>
+            </div>
+            <div class="detail-column">
+              <div class="detail-toolbar">
+                <div>
+                  <p class="eyebrow">Selected Party</p>
+                  <h3 id="selectedPartyTitle">Select a party</h3>
+                </div>
+              </div>
+              <div class="party-profile" id="partyProfile"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="chatView">
+          <div class="chat-layout">
+            <div class="chat-log" id="chatLog">
+              <div class="message assistant">
+                <p>Ask about party positions, category comparisons, or evidence-backed stances.</p>
+              </div>
+            </div>
+            <form class="chat-form" id="chatForm">
+              <input id="chatInput" name="message" type="text" placeholder="Ask about land policy, federalism, healthcare..." autocomplete="off" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="evidenceCardTemplate">
+      <article class="evidence-card">
+        <a class="thumb-link" target="_blank" rel="noreferrer">
+          <img class="thumb" alt="" loading="lazy" />
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="sub-topic"></span>
+          </div>
+          <h4></h4>
+          <p></p>
+          <a class="video-link" target="_blank" rel="noreferrer">Open citation</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>

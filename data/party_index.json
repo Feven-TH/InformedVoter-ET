@@ -1,0 +1,2198 @@
+{
+  "afar-peoples-party": {
+    "ideology": "",
+    "name": "Afar People's Party",
+    "stances": {
+      "foreign_policy": {
+        "position": "The party supports the current constitutional framework that allows the diaspora to work and invest in Ethiopia, while maintaining restrictions on political rights (such as voting and being elected) for those who do not reside in the country. APP supports maintaining the current constitutional framework, which allows the diaspora to invest and work in Ethiopia but restricts political rights like voting unless they reside in the country.",
+        "sub_topics": [
+          {
+            "id": "dual_citizenship",
+            "name": "Dual Citizenship"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2008s"
+      },
+      "governance_constitutional": {
+        "position": "The party advocates for temporarily maintaining the current constitution to properly implement existing rights, such as self-administration, before considering any amendments through a public consensus process. APP clarifies that they support maintaining the constitution temporarily. They want the existing constitutional rights to self-administration to be properly implemented first before considering amendments.",
+        "sub_topics": [
+          {
+            "id": "federalism_and_the_constitution",
+            "name": "Federalism and the Constitution"
+          },
+          {
+            "id": "national_dialogue_and_constitutional_amendment",
+            "name": "National Dialogue and Constitutional Amendment"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2069s"
+      },
+      "social_inclusion": {
+        "position": "The party follows social democracy and asserts that individual rights are inherently encompassed within group rights. Respecting group rights, such as language and culture, does not diminish individual freedoms. The party guarantees that minorities living in regions like Afar will have their rights to work, prosper, and live freely fully respected. APP follows social democracy and believes that individual rights are encompassed within group rights. They argue that respecting group rights, such as language, does not crush individual freedoms like speech and thought.",
+        "sub_topics": [
+          {
+            "id": "group_vs_individual_rights",
+            "name": "Group vs. Individual Rights"
+          },
+          {
+            "id": "minority_rights",
+            "name": "Minority Rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1556s"
+      }
+    }
+  },
+  "amhara-democratic-force-movement": {
+    "ideology": "",
+    "name": "Amhara Democratic Force Movement",
+    "stances": {
+      "governance_constitutional": {
+        "position": "The party plans to amend the constitution to shift from ethnic federalism to citizenship-based federalism. This includes removing the 'oppressor-oppressed' narrative from the preamble, which they argue targets Amharas, securing individual rights to live and own property anywhere to prevent displacement, and establishing an independent constitutional court to replace the House of Federation.",
+        "sub_topics": [
+          {
+            "id": "constitutional_reform_federalism",
+            "name": "Constitutional Reform & Federalism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=4937s"
+      },
+      "human_rights_justice": {
+        "position": "The party is committed to enforcing laws that deny amnesty to perpetrators of human rights violations and genocide, and will stop government involvement in such abuses. They also plan to raise public awareness and unite opposition parties to address the root causes of human rights crises.",
+        "sub_topics": [
+          {
+            "id": "human_rights_accountability",
+            "name": "Human Rights & Accountability"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=3493s"
+      },
+      "infrastructure_housing": {
+        "position": "The party supports corridor development in principle but condemns the current \"revolutionary\" and forceful implementation by the Prosperity Party. They claim they have been voicing their opposition.",
+        "sub_topics": [
+          {
+            "id": "corridor_development_evictions",
+            "name": "Corridor Development Evictions"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=4270s"
+      },
+      "social_inclusion": {
+        "position": "The party prioritizes individual rights and freedoms as the fundamental prerequisite for protecting group and ethnic rights. They advocate for a system that ensures equal benefit and social security for all citizens. The party follows moderate liberalism, prioritizing individual rights as the foundation for group rights. They believe that when individual dignity and freedoms are respected, group rights will naturally be protected. The party believes that securing individual rights naturally leads to the protection of group rights. They advocate for a system that ensures not just equal opportunity, but equal benefit and social security for all. The party organized ethnically out of necessity to defend the Amhara people from targeted attacks by the TPLF. However, their core belief remains in individual rights, and they plan to transition into a pan-Ethiopian party after the election. The party believes displacement is rooted in the group-rights-based state philosophy. They will amend the constitution's preamble to remove the \"oppressor-oppressed\" narrative and focus on individual rights.",
+        "sub_topics": [
+          {
+            "id": "individual_and_group_rights",
+            "name": "Individual and Group Rights"
+          },
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          },
+          {
+            "id": "minority_rights",
+            "name": "Minority Rights"
+          },
+          {
+            "id": "preventing_displacement",
+            "name": "Preventing Displacement"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=1558s"
+      }
+    }
+  },
+  "balderas-for-true-democracy-party": {
+    "ideology": "",
+    "name": "Balderas for True Democracy Party",
+    "stances": {
+      "economic_policy": {
+        "position": "Support maintaining communal land systems for pastoralists while advocating for private ownership of agricultural land.",
+        "sub_topics": [
+          {
+            "id": "land_rights",
+            "name": "Land Rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2773s"
+      },
+      "education_labor": {
+        "position": "Establish Amharic and English as federal languages, while regional working languages will include the local language alongside Amharic. Translators will be provided in the civil service for those who do not speak the working language. Reject ethnic quotas in civil service recruitment, prioritizing professional competence and merit. Marginalized groups should be empowered through education and institution-building rather than quotas. Ensure civil service independence by preventing political interference and separating powers. Improve salaries by fixing macroeconomic policies to grow national wealth. Balderas argues that providing services in multiple languages protects minority rights and ensures equal citizenship, which is more important than administrative costs. Using a local language alongside a national language promotes both local administration and national unity. Balderas explains that Amharic has historically served as a lingua franca, and English is already taught in schools. Using a common national language alongside the local mother tongue facilitates national unity without harming local rights. Rejects ethnic quotas entirely, advocating for a citizenship-based politics where recruitment is based solely on professional competence and experience. Argues that political independence requires restructuring the political system, preventing federal interference in regions, and ensuring separation of powers. Argues that salary increases depend on fixing the macroeconomic policy to grow national wealth and reallocating the budget towards productive sectors. Acknowledges Ethiopia's diversity but insists civil service should focus on service delivery, using translators where necessary, rather than ethnic quotas.",
+        "sub_topics": [
+          {
+            "id": "language_policy",
+            "name": "Language Policy"
+          },
+          {
+            "id": "civil_service_recruitment_and_ethnic_quotas",
+            "name": "Civil Service Recruitment and Ethnic Quotas"
+          },
+          {
+            "id": "civil_service_independence_and_salaries",
+            "name": "Civil Service Independence and Salaries"
+          },
+          {
+            "id": "multiple_working_languages_in_regions",
+            "name": "Multiple Working Languages in Regions"
+          },
+          {
+            "id": "language_policy_in_regions",
+            "name": "Language Policy in Regions"
+          },
+          {
+            "id": "merit_vs_ethnic_representation",
+            "name": "Merit vs. Ethnic Representation"
+          },
+          {
+            "id": "political_independence_of_civil_service",
+            "name": "Political Independence of Civil Service"
+          },
+          {
+            "id": "civil_servant_salaries_and_cost_of_living",
+            "name": "Civil Servant Salaries and Cost of Living"
+          },
+          {
+            "id": "language_and_ethnic_representation",
+            "name": "Language and Ethnic Representation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1725s"
+      },
+      "foreign_policy": {
+        "position": "Fully permit dual citizenship for Ethiopians by descent, allowing them to vote and run for office, with legal conflicts handled by respective national legal systems. Balderas fully supports dual citizenship for Ethiopians by descent to utilize their knowledge and experience. They would allow dual citizens to vote and run for office, and believe legal conflicts will be handled by the respective legal systems.",
+        "sub_topics": [
+          {
+            "id": "dual_citizenship",
+            "name": "Dual Citizenship"
+          },
+          {
+            "id": "dual_citizenship_and_loyalty",
+            "name": "Dual Citizenship and Loyalty"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2127s"
+      },
+      "governance_constitutional": {
+        "position": "Balderas clarifies they do not want to return to the regimes of Haile Selassie or the Derg, but rather to dismantle the current ethnic federalism that divides people, aiming to restore the historical social fabric of unity and peaceful coexistence. Balderas clarifies that their plan for 34 autonomous regions applies to the entire country. They propose restructuring based on geography, administration, and development rather than just language, and emphasize that any changes will be subject to public consultation. Balderas explains that the 34 regions are a proposed solution based on studies. If elected, it signifies public acceptance of their manifesto, but they will still engage in public discussion and adjust if necessary.",
+        "sub_topics": [
+          {
+            "id": "dismantling_regions_and_citizenship_rights",
+            "name": "Dismantling Regions and Citizenship Rights"
+          },
+          {
+            "id": "dismantling_regions",
+            "name": "Dismantling Regions"
+          },
+          {
+            "id": "imposing_regional_restructuring",
+            "name": "Imposing Regional Restructuring"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=3224s"
+      },
+      "social_inclusion": {
+        "position": "Prioritize individual citizenship rights over group rights, arguing that the current focus on group rights marginalizes minorities and fails to protect individuals. Balderas proposes restructuring the country into 34 autonomous regions and 7 federal cities, dismantling current ethnic-based regions. They plan to use local languages alongside Amharic for regional administration, and Amharic and English at the federal level. Balderas argues that group rights are tied to individuals and opposes politicizing language and culture. They support communal land for pastoralists but private ownership for agricultural land. They believe prioritizing group rights marginalizes minorities, and true citizenship ensures equal political rights for everyone. Argues that ethnic quotas are a political tool that harms the country. Inclusivity should be achieved by building institutions and empowering marginalized groups through education, not by placing unqualified people in jobs.",
+        "sub_topics": [
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          },
+          {
+            "id": "political_appointees_and_marginalized_ethnic_groups",
+            "name": "Political Appointees and Marginalized Ethnic Groups"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2712s"
+      }
+    }
+  },
+  "coalition-for-ethiopian-unity-party": {
+    "ideology": "",
+    "name": "Coalition for Ethiopian Unity Party",
+    "stances": {
+      "culture_tourism": {
+        "position": "Identifies peace as the primary prerequisite for tourism. Opposes development projects that displace citizens. Aims to increase tourism revenue to 15% in five years and establish strict laws to protect wildlife and heritage sites from mining and factories. The party plans to protect tourism resources, expand destination development, facilitate market development, and build institutional capacity, including trained manpower and infrastructure. The party will promote culture, protect heritages, and involve youth and women. However, they stressed that ensuring peace is the absolute prerequisite for any of this to succeed and bring foreign currency.",
+        "sub_topics": [
+          {
+            "id": "tourism_and_heritage_protection",
+            "name": "Tourism and Heritage Protection"
+          },
+          {
+            "id": "global_tourism_competition",
+            "name": "Global tourism competition"
+          },
+          {
+            "id": "protection_of_ancient_heritages",
+            "name": "Protection of ancient heritages"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw&t=1382s"
+      },
+      "economic_policy": {
+        "position": "Fosters a market-led economy with the government acting as a regulator. Major institutions like the National Bank and airlines will remain under government control. Will revoke licenses of party-affiliated businesses and close ethnic/religious financial institutions. Plans a constitutional amendment to grant land ownership to farmers, dividing land into private, communal, and state categories. Aims to double agricultural productivity and shift 20% of the agricultural workforce to agro-industries. CEUP clarifies they oppose corrupt \"system capitalists\" who exploit citizens through government ties, not legitimate \"wealth capitalists.\" They aim to foster a free market that encourages genuine investors. CEUP will not impose excessively high taxes but will implement fair, proportionate rates, potentially exempting civil servants. They will supplement revenue through state-administered enterprises and ensure taxes are used properly. CEUP believes major institutions like the National Bank and airlines must remain under government control. Overall, the economy will be market-led, with the government acting as a regulator. Will ensure fair land distribution, giving special attention to the diaspora and locals, and correct the current system. The party pledges to double agricultural productivity within five years by granting land ownership, providing technology, and removing government interference from the market. The party will limit the government's role to regulation and law enforcement, leaving supply to the private sector. However, they will provide subsidies during global crises to protect farmers from exorbitant prices. The party claims these projects, started during the Derg regime, have been interrupted. They plan to consult with the public, fix the issues, and make them operational within two to three years. The party stated that ensuring peace is the primary prerequisite for tourism development, noting current conflicts in multiple regions. They plan to work on peace and infrastructure simultaneously, but peace cannot be delayed.",
+        "sub_topics": [
+          {
+            "id": "economic_policy_and_wealth_creation",
+            "name": "Economic Policy and Wealth Creation"
+          },
+          {
+            "id": "agriculture_and_land_ownership",
+            "name": "Agriculture and Land Ownership"
+          },
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "tax_policy",
+            "name": "Tax policy"
+          },
+          {
+            "id": "government_role",
+            "name": "Government Role"
+          },
+          {
+            "id": "land_for_real_estate",
+            "name": "Land for Real Estate"
+          },
+          {
+            "id": "production_targets",
+            "name": "Production Targets"
+          },
+          {
+            "id": "fertilizer_supply_subsidies",
+            "name": "Fertilizer Supply & Subsidies"
+          },
+          {
+            "id": "irrigation_projects",
+            "name": "Irrigation Projects"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=3885s"
+      },
+      "education_labor": {
+        "position": "Supports mother-tongue education and justice, but will make Amharic the national language and add more federal working languages based on study. Rejects tying ethnicity to land. Completely rejects ethnic-based recruitment, prioritizing merit, education, and experience. Will free the civil service from political interference, establish an independent anti-corruption commission, and reduce the tax burden on civil servants. Will use domestic languages and English up to secondary school, with English as the full medium from grade 9. Plans to remove political cadres from schools, stop cheating, and ensure 85-90% of students pass the 12th-grade exam. Supports mother-tongue education and justice, but will establish a national language and add more working languages based on study. Completely rejects ethnic-based recruitment, prioritizing merit, education, and experience, while ensuring inclusion of women, youth, and people with disabilities. Will allow civil servants to organize to defend their rights, establish an independent commission to investigate corruption, and make the civil service accountable to the Senate. Plans to reduce the cost of living through macroeconomic policy changes, specifically by reducing taxes on civil servants and providing free social security and health services. The structure will be Pre-primary (KG) for ages 4-6, primary from grades 1-6, middle school grades 7-8, and secondary grades 9-12. Ministry exams will be given at grades 6 and 8, and the school leaving exam (Matric) will be given at grade 12. The passing score will be 50%. However, we criticize the current government's implementation as a political conspiracy to reduce university admissions. We will change the teaching and assessment system to ensure 85-90% of students pass. Cooperation defends its stance by arguing that the past generation fought for public rights and shouldn't be shamed. They question why Renaissance Party doesn't merge with Prosperity if they share similar views, accusing them of confusing the public. They assert that their coalition was formed to save Ethiopia from danger and that they are committed to a unified struggle.",
+        "sub_topics": [
+          {
+            "id": "language_and_cultural_policy",
+            "name": "Language and Cultural Policy"
+          },
+          {
+            "id": "civil_service_reform",
+            "name": "Civil Service Reform"
+          },
+          {
+            "id": "education_policy",
+            "name": "Education Policy"
+          },
+          {
+            "id": "referendums_and_language_policy",
+            "name": "Referendums and Language Policy"
+          },
+          {
+            "id": "merit_vs_ethnic_representation",
+            "name": "Merit vs. Ethnic Representation"
+          },
+          {
+            "id": "political_independence_of_civil_service",
+            "name": "Political Independence of Civil Service"
+          },
+          {
+            "id": "civil_servant_salaries_and_cost_of_living",
+            "name": "Civil Servant Salaries and Cost of Living"
+          },
+          {
+            "id": "educational_tier_structure",
+            "name": "Educational Tier Structure"
+          },
+          {
+            "id": "national_exams",
+            "name": "National Exams"
+          },
+          {
+            "id": "12th_grade_passing_score",
+            "name": "12th Grade Passing Score"
+          },
+          {
+            "id": "imposing_amharic_as_national_language",
+            "name": "Imposing Amharic as national language"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=4200s"
+      },
+      "foreign_policy": {
+        "position": "Aims for unity with Eritrea or reclaiming the Assab port through peaceful dialogue, negotiation, and economic integration. Calls for troop withdrawal from borders and an end to proxy conflicts. We reject the EPRDF/Prosperity policy because it has been destroying education for 35 years and caused the 97% failure rate. We need a paradigm shift. However, we do accept international frameworks and standards (like UNESCO/UNICEF) that are included in it.",
+        "sub_topics": [
+          {
+            "id": "foreign_affairs_and_national_security",
+            "name": "Foreign Affairs and National Security"
+          },
+          {
+            "id": "rejecting_international_principles",
+            "name": "Rejecting International Principles"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=3241s"
+      },
+      "governance_constitutional": {
+        "position": "Views the current system as leaning towards confederalism and proposes a federal system based on geography, settlement, and economy that prioritizes individual rights. Rejects politicians deciding regions in backrooms, proposing constitutional amendments to base structures on geography, economy, and public consent. Will give administrative powers to regional governments to bring them closer to the people, while the federal government handles diplomacy and security. Agrees that political interpretation hinders constitutional amendments and proposes a separate body for interpretation to ensure independence. Notes unitary systems work elsewhere but plans to use the National Dialogue and constitutional amendments to fix the current system's absurdities. Agrees that focusing solely on language for structure is problematic and magnified by politicians for gain. The party proposes replacing ethnic federalism with geographic and cultural federalism based on public consensus, potentially dividing large regions like Amhara and Oromia, and making Addis Ababa an independent city-state. The party wants to update the constitution to match the current societal level and specifically aims to amend Article 39 to remove the right to secession, fearing it could lead to the country's disintegration. The party supports keeping the parliamentary system but wants to transfer the power of constitutional interpretation from the House of Federation to a legal body like the Supreme Court. The party rejects the phrase \"Nations, Nationalities, and Peoples,\" arguing it is designed to divide and dismantle Ethiopia. They believe in one Ethiopian people with diverse languages and cultures. They refuse to grant ethnic recognition or tie ethnicity to land, instead prioritizing Ethiopian citizenship while respecting individual languages. They also plan to make Amharic the sole national language due to its wide usage, while allowing federal working languages and mother-tongue education. Cooperation states that Prosperity lacks a clear policy and is destroying the country. They reiterate that individual rights secure group rights, and they aim to build a system where citizens are respected equally regardless of language or ethnicity, ending the current era of ethnic persecution.",
+        "sub_topics": [
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          },
+          {
+            "id": "regional_structuring",
+            "name": "Regional Structuring"
+          },
+          {
+            "id": "division_of_power",
+            "name": "Division of Power"
+          },
+          {
+            "id": "constitutional_interpretation",
+            "name": "Constitutional Interpretation"
+          },
+          {
+            "id": "government_structure_vs_citizens_rights",
+            "name": "Government Structure vs. Citizens' Rights"
+          },
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          },
+          {
+            "id": "parliamentary_system",
+            "name": "Parliamentary system"
+          },
+          {
+            "id": "constitutional_preamble_and_ethnic_recognition",
+            "name": "Constitutional preamble and ethnic recognition"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=842s"
+      },
+      "healthcare_policy": {
+        "position": "We cannot give a specific number without on-the-ground research, but we will ensure no doctor remains unemployed without destabilizing the economy. Our policy is clear: prevention first. By ensuring clean water and health awareness, we prevent diseases and the subsequent economic crises caused by medical costs.",
+        "sub_topics": [
+          {
+            "id": "doctor_to_patient_ratio",
+            "name": "Doctor-to-patient ratio"
+          },
+          {
+            "id": "ceup_s_health_policy",
+            "name": "CEUP's health policy"
+          }
+        ],
+        "video_url": ""
+      },
+      "security_peace": {
+        "position": "The primary responsibility to protect citizens lies with the government. We call for genuine negotiations with these armed groups to address their demands, rather than just demanding they surrender. The current education policy itself produced these conflicts.",
+        "sub_topics": [
+          {
+            "id": "armed_groups_education",
+            "name": "Armed Groups & Education"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=2898s"
+      },
+      "social_inclusion": {
+        "position": "Agrees on a bicameral legislature and independent constitutional interpretation, emphasizing genuine dialogue for economic fairness. Argues that civil service is a professional institution where ethnic representation is irrelevant and counterproductive. The focus should be on merit and fighting corruption.",
+        "sub_topics": [
+          {
+            "id": "balancing_rights_and_legislature_structure",
+            "name": "Balancing Rights and Legislature Structure"
+          },
+          {
+            "id": "political_appointees_and_marginalized_ethnic_groups",
+            "name": "Political Appointees and Marginalized Ethnic Groups"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=4705s"
+      }
+    }
+  },
+  "ethiopian-citizens-for-social-justice": {
+    "ideology": "EZEMA reiterates that they are free from ideological constraints and will formulate policies based purely on what achieves social justice and benefits the country.",
+    "name": "Ethiopian Citizens for Social Justice",
+    "stances": {
+      "economic_policy": {
+        "position": "Rejects strict economic ideologies (like socialism or neoliberalism) and evaluates policies based on whether they achieve social justice. Believes job creation is primarily the role of the private sector and aims to improve the ease of doing business and reform the tax system. Advocates for the independence of macroeconomic institutions, particularly the National Bank, to prevent politically motivated money printing and control inflation. Supports government intervention to correct market failures, ensure social justice, and protect low-income citizens, while avoiding direct competition with citizens in services or manufacturing. Plans to transition the workforce from agriculture to manufacturing, agro-processing, tourism, and services. Aims to break the monopoly of the US Dollar in foreign trade by using alternative mechanisms with neighboring countries and major partners like China and India. Advocates for land privatization, allowing farmers to own, sell, and exchange their land, moving away from the state monopoly on land ownership. Plans to consolidate fragmented land into large-scale mechanized farms to increase productivity and achieve food sovereignty. Pledges to achieve self-sufficiency in fertilizer production within five years using domestic resources and organic fertilizers. EZEMA does not believe in subsidies but focuses on increasing productivity to address supply shortages and controlling inflation by regulating the central bank's money printing. EZEMA argues that regions must build their own capacity to collect taxes and become financially independent, rather than relying on federal subsidies. EZEMA clarifies that the government will still have an active role as an enabler and will intervene to ensure social justice and correct market failures, but will not compete directly with citizens. EZEMA focuses on improving the work culture and ensuring decent wages so citizens can afford their needs, but will provide comprehensive support for vulnerable groups when necessary. EZEMA reiterates that they are free from ideological constraints and will formulate policies based purely on what achieves social justice and benefits the country. EZEMA refuses to be bound by rigid ideologies like socialism or liberalism. Their guiding principle is achieving social justice, and they will adopt any economic policy that serves this goal. EZEMA plans to transition the workforce from agriculture to manufacturing, agro-processing, tourism, and services. They will use mechanized farming to boost productivity and generate forex for industrialization. EZEMA warns that IMF-backed reforms could compromise policy sovereignty. While not opposing free markets, they emphasize the need for interventions to protect low-income citizens from the resulting cost-of-living shocks. EZEMA plans to trade with neighboring countries and major partners like China and India using alternative mechanisms to break the Dollar's monopoly, mitigating geopolitical pressure by diversifying exports. EZEMA will focus on systemic and operational reforms to create a respectful tax collection system that treats taxpayers with dignity, rather than just adjusting tax rates. EZEMA acknowledges the need to negotiate with institutions like the IMF but insists on not compromising core policies like agricultural sovereignty. They will also implement measures to protect citizens from the damaging impacts of devaluation. The policy belongs to the government. However, the Minister of Education is an EZEMA leader, which is a historic sign of consensus democracy. It is the FDRE government's policy. However, the policy is very similar to EZEMA's. Because an EZEMA leader is the Minister of Education, we are implementing our shared goals. We accepted the invitation to join the government to build the country together and free education from partisanship. Yes, by utilizing the Universal Access Fund to expand telecom access to unserved rural areas. EZEMA plans to consolidate fragmented land into large-scale mechanized farms and expand agro-industrialization, arguing that the current 0.5-hectare average plot size cannot lift farmers out of poverty. EZEMA plans to achieve sovereignty in fertilizer production within five years by utilizing domestic resources to produce organic fertilizers like compost and biogas byproducts.",
+        "sub_topics": [
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "agriculture_and_land_policy",
+            "name": "Agriculture and Land Policy"
+          },
+          {
+            "id": "fiscal_federalism",
+            "name": "Fiscal federalism"
+          },
+          {
+            "id": "government_role",
+            "name": "Government Role"
+          },
+          {
+            "id": "tax_policy",
+            "name": "Tax policy"
+          },
+          {
+            "id": "ideology_and_currency_floating",
+            "name": "Ideology and currency floating"
+          },
+          {
+            "id": "foreign_exchange_reform",
+            "name": "Foreign Exchange Reform"
+          },
+          {
+            "id": "international_trade",
+            "name": "International Trade"
+          },
+          {
+            "id": "policy_ownership",
+            "name": "Policy Ownership"
+          },
+          {
+            "id": "digital_economy",
+            "name": "Digital Economy"
+          },
+          {
+            "id": "agricultural_productivity_land_size",
+            "name": "Agricultural Productivity & Land Size"
+          },
+          {
+            "id": "fertilizer_supply",
+            "name": "Fertilizer Supply"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=5708s"
+      },
+      "education_labor": {
+        "position": "Supports directing students who do not pass university entrance exams to Technical and Vocational Education and Training (TVET) and skill-based programs. Advocates for true academic freedom and a secular environment in universities, with leadership chosen based on merit rather than ethnicity. Advocates for adding more federal working languages alongside Amharic, based on study and public consensus, and implementing multilingualism at federal and regional levels. Clarifies they do not oppose ethnic rights but oppose using ethnicity for political organization, re-emphasizing their four criteria for regions. EZEMA believes job creation is primarily the role of the private sector and aims to create a conducive environment by improving the ease of doing business and reforming the tax system. EZEMA plans to focus on closing the skills gap of overseas workers and establishing strong bilateral agreements to protect their human rights. The word 'fail' should be removed from the dictionary. Not passing the entrance exam doesn't mean failing in life; there are other opportunities like TVET. The 90% who passed previously were cheating. The new assessment system stopped cheating. The passing rate has improved to 8.9% and will eventually reach around 30%. Education reform takes time. We will increase the passing rate by involving all stakeholders (economy, finance, business), not just the Ministry of Education. We must stop viewing those who don't go to university as failures; they will be directed to TVET and skill-based programs to build the country.",
+        "sub_topics": [
+          {
+            "id": "education_policy",
+            "name": "Education Policy"
+          },
+          {
+            "id": "language_and_cultural_policy",
+            "name": "Language and Cultural Policy"
+          },
+          {
+            "id": "referendums_and_language_policy",
+            "name": "Referendums and Language Policy"
+          },
+          {
+            "id": "job_creation",
+            "name": "Job creation"
+          },
+          {
+            "id": "overseas_employment",
+            "name": "Overseas employment"
+          },
+          {
+            "id": "12th_grade_failure_rate",
+            "name": "12th Grade Failure Rate"
+          },
+          {
+            "id": "12th_grade_solution",
+            "name": "12th Grade Solution"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=4461s"
+      },
+      "foreign_policy": {
+        "position": "Aims to reclaim access to the port of Assab through negotiation, revising international laws, and offering options like land swaps or institutional shares. Open to recognizing Somaliland if it benefits Ethiopia's national interests. Views the Red Sea and the Nile as existential issues and considers Egypt's actions to prevent Ethiopia from using the Nile as hostile. EZEMA aims to reclaim Assab through negotiation and build ties with Eritreans. EZEMA will remain in institutions but rely more on internal strength.",
+        "sub_topics": [
+          {
+            "id": "foreign_affairs_and_national_security",
+            "name": "Foreign Affairs and National Security"
+          },
+          {
+            "id": "assab_and_eritrea",
+            "name": "Assab and Eritrea"
+          },
+          {
+            "id": "multilateral_institutions",
+            "name": "Multilateral Institutions"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=3956s"
+      },
+      "governance_constitutional": {
+        "position": "Opposes ethnic-based federalism, advocating instead for a system based on citizenship and individual rights rather than group rights. Plans to restructure regions based on geography, administrative convenience, resource distribution, and national consensus, rather than solely on language or ethnicity. Proposes amending the constitution to remove the right to secession (Article 39) and changing the preamble to 'We, the people of Ethiopia'. Advocates for transitioning from a parliamentary system to a presidential system to elect a unifying leader. Supports establishing an independent Constitutional Court to interpret the constitution, removing this power from the House of Federation. Criticizes the current ethnic-based federalism for making ethnic groups the owners of the country instead of citizens, and points out the lack of separation of powers. Criticizes the current structure for lacking standards and will restructure regions based on four criteria including resource distribution and geography. Argues there is no real division of power or checks and balances, making the system practically unitary. Rejects political interpretation of the constitution, advocating for an independent Constitutional Court with legal experts. Acknowledges changing the system requires generational shifts and plans to amend the constitutional foundations of ethnic federalism while restructuring regions. Questions why language was the sole basis for regions despite other constitutional criteria, arguing it has become a tool for political division. EZEMA opposes the current structure because it fails to deliver local democracy, as lower-level administrators are appointed by the ruling party rather than elected, and it fosters suspicion by being based solely on ethnicity. EZEMA wants to replace it with 'We, the people of Ethiopia,' arguing that Ethiopians are one people with diverse cultures and languages. EZEMA argues that including secession in the constitution encourages disintegration, and that the true guarantee against oppression is democracy and local self-rule. EZEMA believes a presidential system allows the entire country to elect one unifying leader, unlike the parliamentary system where the Prime Minister is elected by a single constituency. EZEMA argues the current system is top-down, with local leaders appointed by regional elites. They will ensure local leaders are elected and address ethnic oppression through multilingualism and respecting cultural rights. EZEMA clarifies that their citizenship-based politics starts with individual rights, and when individual rights are respected, collective and cultural rights naturally follow. They argue that the current system uses group rights to dominate and politicize culture, such as restricting the celebration of Adwa to a hall instead of public squares. They advocate for a federalism based on citizenship where cultures are returned to their owners and depoliticized.",
+        "sub_topics": [
+          {
+            "id": "federalism_and_the_constitution",
+            "name": "Federalism and the Constitution"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          },
+          {
+            "id": "regional_structuring",
+            "name": "Regional Structuring"
+          },
+          {
+            "id": "division_of_power",
+            "name": "Division of Power"
+          },
+          {
+            "id": "constitutional_interpretation",
+            "name": "Constitutional Interpretation"
+          },
+          {
+            "id": "government_structure_vs_citizens_rights",
+            "name": "Government Structure vs. Citizens' Rights"
+          },
+          {
+            "id": "constitutional_preamble",
+            "name": "Constitutional preamble"
+          },
+          {
+            "id": "article_39_secession",
+            "name": "Article 39 (Secession)"
+          },
+          {
+            "id": "presidential_system",
+            "name": "Presidential system"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=1572s"
+      },
+      "healthcare_policy": {
+        "position": "EZEMA promises to make Ethiopia self-sufficient in wheat within five years, focusing on making food accessible and affordable rather than just increasing raw numbers. They emphasize the need for protein and micronutrients, not just calories from wheat.",
+        "sub_topics": [
+          {
+            "id": "production_targets_stunting",
+            "name": "Production Targets & Stunting"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3zRbfhtT4IQ&t=1831s"
+      },
+      "human_rights_justice": {
+        "position": "EZEMA plans to make the National Bank independent of party politics, led by professionals based on merit, to prevent politically motivated money printing.",
+        "sub_topics": [
+          {
+            "id": "institutional_independence",
+            "name": "Institutional independence"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=2764s"
+      },
+      "infrastructure_housing": {
+        "position": "Will prioritize long-term savers and fund the scheme by eliminating corruption and inefficiency that wasted billions. EZEMA supports the original scientific concepts of river/corridor development but will correct flaws by ensuring development happens without displacing residents.",
+        "sub_topics": [
+          {
+            "id": "20_80_housing_scheme",
+            "name": "20/80 Housing Scheme"
+          },
+          {
+            "id": "demolitions",
+            "name": "Demolitions"
+          }
+        ],
+        "video_url": ""
+      },
+      "security_peace": {
+        "position": "EZEMA supports a proportional response to defend sovereignty.",
+        "sub_topics": [
+          {
+            "id": "foreign_support_for_militants",
+            "name": "Foreign Support for Militants"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=4595s"
+      },
+      "social_inclusion": {
+        "position": "Argues ethnic rights should be respected but not politicized, and the House of Federation should represent regions for proper checks and balances.",
+        "sub_topics": [
+          {
+            "id": "balancing_rights_and_legislature_structure",
+            "name": "Balancing Rights and Legislature Structure"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=4643s"
+      }
+    }
+  },
+  "ethiopian-democratic-union": {
+    "ideology": "",
+    "name": "Ethiopian Democratic Union",
+    "stances": {
+      "education_labor": {
+        "position": "Accept the five designated national languages while supporting the growth of minority languages, allowing them to be developed within their regions without conflict. Accepts the five national working languages but supports the growth of minority languages, allowing them to be used and developed within their respective regions.",
+        "sub_topics": [
+          {
+            "id": "minority_language_rights",
+            "name": "Minority language rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=2458s"
+      },
+      "governance_constitutional": {
+        "position": "Oppose the current regional structuring as it lacks public participation and causes conflict; regions should be established based on public consent. Criticizes the current regional structuring for lacking public participation and being a source of conflict, advocating for regions formed by public consent.",
+        "sub_topics": [
+          {
+            "id": "flaws_in_current_federalism",
+            "name": "Flaws in current federalism"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=3586s"
+      },
+      "security_peace": {
+        "position": "Establish a unified, well-equipped federal security structure to protect borders, while limiting regional forces to regular police and minor security forces without heavy armaments. Prioritize peace and the supremacy of ideas, ready to accept electoral defeat and work with regional administrations to foster a peaceful democratic environment. Completely reject armed struggle as it only brings exile, drought, starvation, and death; advocate for dialogue and call on armed groups to return for peaceful dialogue. EDU, drawing from its own history of armed struggle, states that war only brings exile, drought, and death. They completely reject armed struggle as a means of development and call on armed groups to return to peaceful dialogue.",
+        "sub_topics": [
+          {
+            "id": "security_and_intelligence_institutions_organization",
+            "name": "Security and intelligence institutions organization"
+          },
+          {
+            "id": "peaceful_conclusion_of_the_election",
+            "name": "Peaceful conclusion of the election"
+          },
+          {
+            "id": "armed_struggle_for_state_power",
+            "name": "Armed struggle for state power"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=1235s"
+      },
+      "social_inclusion": {
+        "position": "Grant self-administration to contiguous minority groups with distinct cultures at the special zone or woreda level, prioritizing political dialogue before administrative changes. Will grant self-administration to contiguous minority groups with distinct cultures, primarily through special zones or woredas rather than full regional status.",
+        "sub_topics": [
+          {
+            "id": "minority_self_administration",
+            "name": "Minority self-administration"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=1297s"
+      }
+    }
+  },
+  "ethiopian-federal-democratic-unity-forum": {
+    "ideology": "",
+    "name": "Ethiopian Federal Democratic Unity Forum",
+    "stances": {
+      "education_labor": {
+        "position": "The regional parliament will decide the official working language, but individuals have the right to use translators in courts to ensure their rights are protected. The regional parliament, elected by the people, will decide the working language. However, individuals have the right to be served via translators in courts to ensure their rights are protected, though the region won't change its official language for an individual.",
+        "sub_topics": [
+          {
+            "id": "language_policy_for_minorities",
+            "name": "Language policy for minorities"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ABmWjAn_Cyk&t=1369s"
+      },
+      "foreign_policy": {
+        "position": "Individuals have the right to identify solely as Ethiopian without being forced to choose or adopt a specific ethnic identity. Medrek states that individuals are not forced to choose an ethnic group. It is an individual's right to identify solely as Ethiopian, and the party will not force anyone to adopt an ethnic identity.",
+        "sub_topics": [
+          {
+            "id": "choosing_ethiopian_citizenship_over_ethnic_identity",
+            "name": "Choosing Ethiopian citizenship over ethnic identity"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ABmWjAn_Cyk&t=1924s"
+      },
+      "social_inclusion": {
+        "position": "Administration in mixed-identity cities should be determined by the people's vote based on majority rule, while strictly respecting minority rights, including the right to be judged in a language they understand. Medrek advocates for a democratic system based on majority rule and minority rights. The administration will be determined by the people's vote, and minority groups will have their rights respected, including the right to be judged in their own language.",
+        "sub_topics": [
+          {
+            "id": "administration_of_mixed_identity_cities",
+            "name": "Administration of mixed-identity cities"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ABmWjAn_Cyk&t=1018s"
+      }
+    }
+  },
+  "ethiopian-national-unity-party": {
+    "ideology": "",
+    "name": "Ethiopian National Unity Party",
+    "stances": {
+      "economic_policy": {
+        "position": "Promises to guarantee and certify land ownership for farmers to prevent forced displacement, resolve border disputes, and ensure that land sales simply transfer legal ownership certification. Plans to mitigate potential displacement from land privatization by expanding agro-industry and manufacturing near farming communities to create alternative employment and income sources. Argues that any land transaction, whether with the government or an individual, must protect the farmer's interests and provide fair value, criticizing the current government for taking land at disproportionate prices. The party blames the current regime for displacing farmers and depriving them of ownership. If elected, ENUP will first ensure and certify land ownership for the farmers currently on the land, which will prevent forced displacement and allow them to utilize their land. To mitigate displacement, the party plans to expand agro-industry and manufacturing near farming communities. This will create alternative job opportunities and improve income sources, ensuring that farmers have sustainable livelihoods even if land dynamics change. ENUP points out that the government is currently the one taking land from farmers at unfair prices. Whether the government or an individual buys it, the land should be sold in a way that protects the farmer's interests.",
+        "sub_topics": [
+          {
+            "id": "land_certification_and_displacement_prevention",
+            "name": "Land certification and displacement prevention"
+          },
+          {
+            "id": "consequences_of_privatization",
+            "name": "Consequences of privatization"
+          },
+          {
+            "id": "land_sales_and_fair_compensation",
+            "name": "Land sales and fair compensation"
+          },
+          {
+            "id": "absentee_landlords",
+            "name": "Absentee landlords"
+          },
+          {
+            "id": "land_sales_and_sovereignty",
+            "name": "Land sales and sovereignty"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=2775s"
+      }
+    }
+  },
+  "ethiopian-social-democratic-party": {
+    "ideology": "",
+    "name": "Ethiopian Social Democratic Party",
+    "stances": {
+      "economic_policy": {
+        "position": "Plans to fund free education and healthcare by eliminating the waste of public resources and ensuring equitable distribution, rather than immediately imposing high taxes. The government will have limited intervention but will control major sectors like mining and transport for public benefit, and opposes privatizing profitable assets like Ethiopian Airlines. Opposes opening the banking sector to foreign investors without adequate study, citing risks of indirect colonization. ESDP argues current tax collection is unfair and politically biased. They plan to fund free education and healthcare by eliminating the waste of public resources and ensuring equitable distribution, rather than immediately imposing high taxes. The government will have limited intervention but will control major sectors like mining and transport for public benefit. The cost of living will be reduced by removing political interference and establishing a fair free market. ESDP's policy is tailored to Ethiopia's specific context. They will not impose high taxes immediately but will build capacity gradually based on citizens' income levels. Will remove bureaucratic hurdles and ensure the rule of law so citizens can freely sell, move, and invest without fear of arbitrary displacement. Will provide free land to low-income citizens based on professional studies, not to everyone.",
+        "sub_topics": [
+          {
+            "id": "social_justice_taxation",
+            "name": "Social Justice & Taxation"
+          },
+          {
+            "id": "government_role_economic_policy",
+            "name": "Government Role & Economic Policy"
+          },
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "government_role",
+            "name": "Government Role"
+          },
+          {
+            "id": "property_rights",
+            "name": "Property Rights"
+          },
+          {
+            "id": "free_land_provision",
+            "name": "Free Land Provision"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=1380s"
+      },
+      "education_labor": {
+        "position": "Aims to reduce the cost of living and create jobs by removing political interference, decentralizing development, and establishing a fair free market. ESDP plans to create jobs by decentralizing development to the local level and fostering a system free from political interference that respects human rights.",
+        "sub_topics": [
+          {
+            "id": "job_creation_cost_of_living",
+            "name": "Job Creation & Cost of Living"
+          },
+          {
+            "id": "job_creation",
+            "name": "Job creation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=1612s"
+      },
+      "social_inclusion": {
+        "position": "Proposes using accumulated pension funds to create suitable work for those who become disabled early, providing medical equipment regionally, and adjusting pensions to inflation. Aims to change the cultural stigma around disability, rejects dependency on charity, and advocates for using national resources to support PWDs. Promises to include individuals with disabilities directly in designing policies and procedures, and to remove party dependency for accessing education and jobs. Aims to change the cultural stigma around disability and has PWDs in regional leadership, though none in the federal executive committee. Rejects dependency on charity and advocates for using national resources to support PWDs.",
+        "sub_topics": [
+          {
+            "id": "disability_inclusion_and_social_protection",
+            "name": "Disability Inclusion and Social Protection"
+          },
+          {
+            "id": "disability_inclusion_and_orphans",
+            "name": "Disability Inclusion and Orphans"
+          },
+          {
+            "id": "female_pwd_candidates_and_disability_models",
+            "name": "Female PWD Candidates and Disability Models"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1967s"
+      }
+    }
+  },
+  "freedom-and-equality-party": {
+    "ideology": "",
+    "name": "Freedom and Equality Party",
+    "stances": {
+      "culture_tourism": {
+        "position": "Make tourism a fundamental economic pillar by digitizing attractions, expanding hospitality, and training local communities. Follow moderate liberalism by limiting government intervention to providing legal frameworks, incentives, and peace, while leaving operations to the private sector. Ensure equitable protection of architectural, religious, and natural heritages. The party plans to make tourism a fundamental economic pillar by leveraging Ethiopia's diverse geography and history. They aim to create local jobs and engage communities in supply chains and daily markets around tourist destinations. The party will digitize tourist attractions, expand hospitality services, and promote local cultural products so tourists buy them and return repeatedly. The party will ensure equitable protection of heritages across all regions, combine international and national rights for architectural protection, and build capacity for religious institutions to manage their sites.",
+        "sub_topics": [
+          {
+            "id": "tourism_and_heritage_protection",
+            "name": "Tourism and Heritage Protection"
+          },
+          {
+            "id": "community_benefit_from_tourism",
+            "name": "Community benefit from tourism"
+          },
+          {
+            "id": "global_tourism_competition",
+            "name": "Global tourism competition"
+          },
+          {
+            "id": "protection_of_ancient_heritages",
+            "name": "Protection of ancient heritages"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw&t=1800s"
+      },
+      "economic_policy": {
+        "position": "Prioritize agriculture, agro-industry, and manufacturing to correct the overgrowth of the service sector. Empower the private sector, particularly small and medium enterprises (SMEs), by providing priority access to credit, tax reliefs, and tax holidays to ensure their survival, which will ultimately expand the tax base and create sustainable jobs. The Freedom and Equality Party emphasizes that peace and stability are prerequisites, followed by job creation and inflation control through a focus on agriculture and manufacturing. The Freedom and Equality Party identifies the current tax system as complex and prone to corruption, and plans to implement a progressive tax system that taxes the wealthy to support low-income citizens. The Freedom and Equality Party plans to decentralize economic activity by focusing on agriculture and establishing agro-industries in the regions where resources are located. The Freedom and Equality Party argues that supporting startups with tax holidays ensures their survival, leading to greater sustainable tax revenue and job creation in the long run. The Freedom and Equality Party acknowledges they may not form a government alone but will implement their policies proportionally to their representation in parliament or a coalition. The Freedom and Equality Party believes that nurturing businesses through tax holidays will ultimately expand the tax base, and prioritizes spending on productive sectors over luxury projects. We will fund this by stopping the war and reallocating military expenses to the health sector. Following moderate liberalism, the party believes the government should limit its intervention, leaving most business operations to the private sector. The government's role will be providing legal frameworks, policies, technology, incentives, and ensuring peace.",
+        "sub_topics": [
+          {
+            "id": "economic_policy_and_job_creation",
+            "name": "Economic Policy and Job Creation"
+          },
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "tax_policy",
+            "name": "Tax policy"
+          },
+          {
+            "id": "fiscal_federalism",
+            "name": "Fiscal federalism"
+          },
+          {
+            "id": "budget_sources",
+            "name": "Budget sources"
+          },
+          {
+            "id": "government_role",
+            "name": "Government Role"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1837s"
+      },
+      "education_labor": {
+        "position": "The Freedom and Equality Party focuses on empowering the private sector, particularly small and medium enterprises, by improving access to credit and providing tax reliefs.",
+        "sub_topics": [
+          {
+            "id": "job_creation",
+            "name": "Job creation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=2428s"
+      },
+      "foreign_policy": {
+        "position": "Use peaceful and diplomatic means to negotiate seaport access with neighboring countries. Maintain a balanced foreign policy based on mutual growth and national interest, prioritizing international law. Refuse to recognize Somaliland to protect Ethiopia's foreign image. Absolutely reject colonial agreements regarding cross-border rivers and protect Ethiopia's right to use its natural resources. Demarcate all borders with neighboring countries through negotiation and respect for international laws.",
+        "sub_topics": [
+          {
+            "id": "foreign_affairs_and_seaport_access",
+            "name": "Foreign Affairs and Seaport Access"
+          },
+          {
+            "id": "nile_waters_and_border_demarcation",
+            "name": "Nile Waters and Border Demarcation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=2566s"
+      },
+      "social_inclusion": {
+        "position": "Implement a rights-based, developmental model for disability inclusion rather than a charity model. Advocate for a comprehensive disability law, provide severe disability subsidies, implement nationwide sign language, and require schools to accommodate children with intellectual disabilities. Support women and PWDs through tailored education and health policies, and actively field PWD candidates in party structures. Revise domestic violence laws to better address the nature of GBV, establish independent justice institutions and rehabilitation centers for victims, and establish a financial system and better social security policies for the elderly. Believes a comprehensive disability law is needed, has fielded many PWD candidates, and has PWDs in its executive committee. Rejects the charity model in favor of a rights-based, developmental model focusing on job creation and education.",
+        "sub_topics": [
+          {
+            "id": "inclusion_of_women_persons_with_disabilities_pwds_and_vulnerable_groups",
+            "name": "Inclusion of Women, Persons with Disabilities (PWDs), and Vulnerable Groups."
+          },
+          {
+            "id": "gender_based_violence_gbv_and_social_protection",
+            "name": "Gender-Based Violence (GBV) and Social Protection"
+          },
+          {
+            "id": "disability_inclusion_and_orphans",
+            "name": "Disability Inclusion and Orphans"
+          },
+          {
+            "id": "female_pwd_candidates_and_disability_models",
+            "name": "Female PWD Candidates and Disability Models"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1392s"
+      }
+    }
+  },
+  "gogot-for-gurage-unity-and-justice-party": {
+    "ideology": "",
+    "name": "Gogot for Gurage Unity and Justice Party",
+    "stances": {
+      "economic_policy": {
+        "position": "Advocates for a mixed land tenure system comprising private, communal, and state ownership, which requires constitutional reform to implement. Views land as an economic asset and factor of production, criticizing its current use as a political tool. Believes land ownership is tied to national belonging and citizenship, not ethnic identity, and opposes distributing land titles based on ethnic groups. Calls for the establishment of a unified, structured land administration institution from the federal to the local level. Highlights that the lack of a land market prevents displaced farmers from receiving fair compensation based on market value. Gogot advocates for a mixed land tenure system of private, communal, and state ownership, tailored to Ethiopia's context. They argue that exclusive state ownership has caused displacement and hindered agricultural investment, and they have submitted this proposal to the National Dialogue Commission. Gogot believes land is tied to national belonging, not ethnic identity. Owning land gives a person a sense of full citizenship. Land is an economic tool, not a political one. They argue against distributing land based on ethnic groups, supporting private and communal holdings instead.",
+        "sub_topics": [
+          {
+            "id": "land_tenure_and_ownership",
+            "name": "Land Tenure and Ownership"
+          },
+          {
+            "id": "land_as_an_economic_vs_political_tool",
+            "name": "Land as an Economic vs. Political Tool"
+          },
+          {
+            "id": "land_and_identity",
+            "name": "Land and Identity"
+          },
+          {
+            "id": "land_administration",
+            "name": "Land Administration"
+          },
+          {
+            "id": "land_market_and_compensation",
+            "name": "Land Market and Compensation"
+          },
+          {
+            "id": "mixed_land_tenure_system",
+            "name": "Mixed land tenure system"
+          },
+          {
+            "id": "land_and_national_belonging",
+            "name": "Land and national belonging"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=1739s"
+      }
+    }
+  },
+  "hibir-ethiopia-democratic-party": {
+    "ideology": "",
+    "name": "Hibir Ethiopia Democratic Party",
+    "stances": {
+      "education_labor": {
+        "position": "Students will learn in their mother tongue from grades 1 to 6, with English integrated from kindergarten and becoming the mandatory medium of instruction starting in grade 7. Additional languages will be selected by regional councils. Public education from kindergarten to grade 12, including school feeding, will be fully government-funded. This will be financed by taxing international schools and eliminating unnecessary public taxes. Education should identify and nurture students' special talents from kindergarten rather than forcing a single path. National exams will be at grades 6, 8, and 12, with a 50% university passing score and remedial classes to raise passing rates. Universities should be autonomous, liberalized, and free from political interference. University cost-sharing will be reduced, and mentorship will be provided for students affected by war. Currently, Amharic is the national language. However, the manifesto refers to the 'working language' of each region, which is their mother tongue. Students will learn in their mother tongue from grade 1 to 6. Additional languages will be selected based on how widely they are spoken in the country or region, and regional councils will decide this. We will generate income by taxing international schools. There are about 22 international schools charging high fees. We will allocate 30% of their tax revenue directly to the education budget. We will also eliminate unnecessary taxes imposed on the public. Exams will be at grades 6, 8, and 12. The passing score is 50%, but we oppose the current system that uses exams to fail students without properly teaching them. We will provide remedial classes to raise the passing rate to over 85%.",
+        "sub_topics": [
+          {
+            "id": "language_of_instruction",
+            "name": "Language of Instruction"
+          },
+          {
+            "id": "free_education_and_school_feeding",
+            "name": "Free Education and School Feeding"
+          },
+          {
+            "id": "educational_philosophy_and_assessment",
+            "name": "Educational Philosophy and Assessment"
+          },
+          {
+            "id": "higher_education",
+            "name": "Higher Education"
+          },
+          {
+            "id": "national_language",
+            "name": "National Language"
+          },
+          {
+            "id": "mother_tongue_additional_languages",
+            "name": "Mother Tongue & Additional Languages"
+          },
+          {
+            "id": "funding_school_feeding",
+            "name": "Funding School Feeding"
+          },
+          {
+            "id": "assessment_passing_score",
+            "name": "Assessment & Passing Score"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=3094s"
+      },
+      "security_peace": {
+        "position": "Compete to offer policy alternatives, prepare members for a peaceful process, and support the establishment of a strong legitimate government regardless of the winner. Firmly oppose armed struggle and violence, advocating instead for peaceful dialogue, national consensus, and reconciliation to resolve issues. Hibir Ethiopia acknowledges that push factors exist, but firmly believes that armed struggle only breeds more war and suffering. They advocate for resolving all issues through peaceful dialogue and the supremacy of ideas at the negotiating table. Hibir Ethiopia does not believe the country's problems can be solved with the current security structure, which they accuse of human rights violations. Their first task would be to free the police, intelligence, and defense forces from political dependence.",
+        "sub_topics": [
+          {
+            "id": "peaceful_conclusion_of_the_election",
+            "name": "Peaceful conclusion of the election"
+          },
+          {
+            "id": "armed_struggle_and_conflict_resolution",
+            "name": "Armed Struggle and Conflict Resolution"
+          },
+          {
+            "id": "armed_struggle_for_state_power",
+            "name": "Armed struggle for state power"
+          },
+          {
+            "id": "implementing_peace_alternatives_and_negotiations",
+            "name": "Implementing peace alternatives and negotiations"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=1629s"
+      },
+      "social_inclusion": {
+        "position": "Establish national consensus and reconciliation councils from local to federal levels, including traditional and religious leaders, to solve historical contradictions and public problems.",
+        "sub_topics": [
+          {
+            "id": "national_consensus_and_reconciliation_councils",
+            "name": "National Consensus and Reconciliation Councils"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=3427s"
+      }
+    }
+  },
+  "kucha-peoples-democratic-party": {
+    "ideology": "",
+    "name": "Kucha People's Democratic Party",
+    "stances": {
+      "education_labor": {
+        "position": "Enforce the constitutional right to mother-tongue education and provide translators in courts and workplaces for those who do not speak the regional language. Will enforce the constitutional right to mother-tongue education and provide translators in courts and workplaces for those who don't speak the regional language.",
+        "sub_topics": [
+          {
+            "id": "minority_language_rights",
+            "name": "Minority language rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=2620s"
+      },
+      "governance_constitutional": {
+        "position": "Replace the current regional structure with a province-based (Kifle Hager) administrative system for the whole country to dismantle ethnic dominance. Structure provinces based on geography, lifestyle, language, history, identity, public psychology, and economic development, avoiding naming administrative centers after specific ethnic groups. Ensure provinces have equal population sizes by conducting a census, and involve scholars, religious leaders, elders, and the public in the structuring process through constitutional amendment. Supports federalism, citing the United States, India, and Germany as examples of federal countries.",
+        "sub_topics": [
+          {
+            "id": "administrative_structure_and_provinces",
+            "name": "Administrative Structure and Provinces"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=1428s"
+      },
+      "social_inclusion": {
+        "position": "Allow minority groups to self-administer at the kebele or woreda level where they reside. Advocate for a clearer constitutional system to ensure minority inclusion, as the current 100,000 ratio per constituency is insufficient and reduces representation for very small groups. Accept mixed identity as valid and allow city residents to administer themselves freely without marginalization or compromising their mixed identity. Demand recognition of Kucha identity and self-administration at the zone level, making Kuchigna the working language in the area. Work with the elected government through peaceful dialogue, negotiation, and consultation based on the constitution to address Kucha demands. The name 'Kucha' means 'winner' (overcoming poverty together) and is not an exclusive ethnic label; the party follows multinational federalism respecting all ethnic groups. Plans to replace regions with provinces and will allow minority groups to self-administer at the local level (woreda, kebele) based on the constitution. Believes city residents should administer themselves freely without their mixed identity being compromised by any single dominant group. Clarifies that 'Kucha' means 'winner' and represents overcoming poverty together, not ethnic exclusion, and advocates for a province-based administration for all of Ethiopia. Will work with the elected government through peaceful dialogue and negotiation based on the constitution to answer the Kucha people's demands. Argues that the 100,000 ratio is insufficient for true minority representation and advocates for a clearer constitutional system to ensure smaller groups are included.",
+        "sub_topics": [
+          {
+            "id": "minority_self_administration_and_representation",
+            "name": "Minority Self-Administration and Representation"
+          },
+          {
+            "id": "mixed_identity_cities",
+            "name": "Mixed-Identity Cities"
+          },
+          {
+            "id": "kucha_identity_and_demands",
+            "name": "Kucha Identity and Demands"
+          },
+          {
+            "id": "minority_self_administration",
+            "name": "Minority self-administration"
+          },
+          {
+            "id": "ethnic_based_party_representation",
+            "name": "Ethnic-based party representation"
+          },
+          {
+            "id": "fixing_kucha_identity_problems",
+            "name": "Fixing Kucha identity problems"
+          },
+          {
+            "id": "metric_for_minority_representation",
+            "name": "Metric for minority representation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=1448s"
+      }
+    }
+  },
+  "kush-peoples-national-movement-party": {
+    "ideology": "",
+    "name": "Kush Peoples' National Movement Party",
+    "stances": {
+      "education_labor": {
+        "position": "Treat all languages equally by rejecting the concept of 'minority' languages, support mother-tongue education for children in grades 1 to 6, and strengthen the use of local languages in institutions and economic exchanges. Supports the current constitutional right for children to learn in their mother tongue and will strengthen the use of local languages in institutions.",
+        "sub_topics": [
+          {
+            "id": "minority_language_rights",
+            "name": "Minority language rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=2229s"
+      },
+      "social_inclusion": {
+        "position": "Address demands for self-administration through constitutional referendums to ensure peaceful coexistence and equal living conditions for all. Establish multinational, mixed administrations in diverse areas from the top down to the local level, using dialogue and negotiation to resolve conflicts and foster peaceful coexistence. Identity questions are defined as the fundamental rights to live peacefully, work, have one's language respected, and move freely as an Ethiopian citizen without marginalization. Will address demands based on the constitution and public referendums to ensure peaceful coexistence. Advocates for mixed administrations where all groups coexist peacefully, guided by government orientation and dialogue. Defines it as the right to live peacefully, work, have one's language respected, and move freely in Ethiopia without marginalization.",
+        "sub_topics": [
+          {
+            "id": "minority_self_administration",
+            "name": "Minority self-administration"
+          },
+          {
+            "id": "mixed_identity_cities",
+            "name": "Mixed-Identity Cities"
+          },
+          {
+            "id": "definition_of_identity_question",
+            "name": "Definition of identity question"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=1190s"
+      }
+    }
+  },
+  "national-movement-of-amhara": {
+    "ideology": "",
+    "name": "National Movement of Amhara",
+    "stances": {
+      "foreign_policy": {
+        "position": "Citizenship entails equal rights, protection, and shared loyalty, unifying individual and group rights. NAMA supports granting dual citizenship under special conditions for individuals of Ethiopian descent or those who have made significant contributions, based on specific criteria rather than as a general principle. NAMA would recognize Somaliland, views Egypt as a historical enemy to be countered by reducing internal vulnerabilities, and would carefully consider joining international peace initiatives like Trump's peace board by leveraging Ethiopia's peacekeeping history. NAMA supports allowing dual citizenship under special circumstances for individuals of Ethiopian descent who have made significant contributions to the country. NAMA defines citizenship as having equal rights, protection, and shared loyalty. They reject the separation of individual and group rights, arguing that an individual's identity includes their community, history, and culture, which should be viewed in a unified manner.",
+        "sub_topics": [
+          {
+            "id": "citizenship_and_dual_citizenship",
+            "name": "Citizenship and Dual Citizenship"
+          },
+          {
+            "id": "foreign_relations_somaliland_egypt_and_peacekeeping",
+            "name": "Foreign Relations (Somaliland, Egypt, and Peacekeeping)"
+          },
+          {
+            "id": "dual_citizenship",
+            "name": "Dual Citizenship"
+          },
+          {
+            "id": "definition_of_an_ethiopian_citizen",
+            "name": "Definition of an Ethiopian Citizen"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1858s"
+      },
+      "governance_constitutional": {
+        "position": "NAMA strongly opposes the current constitution's focus on ethnic sovereignty, which it views as a source of conflict and division. It proposes amending the constitution so sovereignty belongs to the Ethiopian people as a whole and restructuring the federal system based on geography, history, economy, and administration, while still respecting linguistic and cultural rights. NAMA strongly opposes the current constitution's focus on group rights and ethnic sovereignty. They want to amend it so that sovereignty resides in the Ethiopian people as a whole, and to restructure the federal system based on geography and administration rather than ethnicity.",
+        "sub_topics": [
+          {
+            "id": "federalism_and_the_constitution",
+            "name": "Federalism and the Constitution"
+          },
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2307s"
+      },
+      "security_peace": {
+        "position": "NAMA strongly opposes foreign interference, cross-border crimes, and foreign-backed armed groups. It is committed to defending Ethiopia's sovereignty against border violations by neighboring countries like Eritrea or Sudan. NAMA condemns foreign-backed armed groups and will carefully consider peace board membership.",
+        "sub_topics": [
+          {
+            "id": "border_security_and_armed_groups",
+            "name": "Border Security and Armed Groups"
+          },
+          {
+            "id": "peace_board_and_armed_groups",
+            "name": "Peace Board and Armed Groups"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=2196s"
+      },
+      "social_inclusion": {
+        "position": "NAMA organizes along ethnic lines out of necessity to protect the marginalized Amhara people within the current political structure, which ties power to ethnicity. However, its ultimate goal is to establish a liberal system based on citizenship and to transition away from identity-based politics through national dialogue. NAMA explains that they organize along ethnic lines out of necessity because Ethiopia's current political structure ties power and representation to ethnicity. Their ultimate goal is a liberal system based on citizenship, but they must operate within the existing framework to protect the marginalized Amhara people. NAMA supports a federal system based on geography, history, and administration, not solely on ethnicity, which they argue causes conflict. They aim to build a system that respects linguistic and religious rights without organizing politics exclusively around single ethnic identities. NAMA states they organized as Amhara due to historical necessity and targeted attacks within the current system. However, their long-term aim is to negotiate with other Ethiopians to transition away from identity-based politics.",
+        "sub_topics": [
+          {
+            "id": "ethnic_organization_vs_national_identity",
+            "name": "Ethnic Organization vs. National Identity"
+          },
+          {
+            "id": "reconciling_liberal_citizenship_with_ethnic_organization",
+            "name": "Reconciling liberal citizenship with ethnic organization"
+          },
+          {
+            "id": "nama_s_plan_for_group_rights",
+            "name": "NAMA's Plan for Group Rights"
+          },
+          {
+            "id": "national_vs_ethnic_focus",
+            "name": "National vs. Ethnic Focus"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1217s"
+      }
+    }
+  },
+  "new-generation-party": {
+    "ideology": "",
+    "name": "New Generation Party",
+    "stances": {
+      "education_labor": {
+        "position": "Supports mother-tongue education, will provide translators in the justice system, and protects citizens' rights to maintain their culture and differences. Considers all languages a national wealth, supports mother-tongue education, and will provide translators in the justice system.",
+        "sub_topics": [
+          {
+            "id": "minority_language_rights",
+            "name": "Minority language rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=2732s"
+      },
+      "governance_constitutional": {
+        "position": "Rejects the concept of secession and plans to remove the phrase 'up to secession' from Article 39 of the constitution to promote unity. Will address underlying grievances through dialogue and problem-solving to keep groups together. Believes the problem with ethnic federalism lies in its implementation, not the system itself. Aims to replace the politics of hatred with love, and base regional structuring on research to promote unity rather than fragmentation. Will address the root causes and grievances that lead groups to demand secession through dialogue and problem-solving, aiming for African unity rather than fragmentation. Confirms the intention to change that specific phrase in the constitution to promote unity. Believes the problem lies in the implementation, not the federalism itself, and aims to replace the politics of hatred with the politics of love.",
+        "sub_topics": [
+          {
+            "id": "article_39_and_secession",
+            "name": "Article 39 and secession"
+          },
+          {
+            "id": "ethnic_federalism",
+            "name": "Ethnic federalism"
+          },
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=2881s"
+      },
+      "social_inclusion": {
+        "position": "Will study the root causes of minority self-administration demands using experts and provide legal, knowledge-based solutions. Will establish joint administrations with proportional representation from all ethnic groups, based on research, knowledge, and inclusive dialogue. Will study the root causes of the problems using experts and provide legal, knowledge-based solutions. Will establish joint administrations with proportional representation from all ethnic groups, based on research and consensus.",
+        "sub_topics": [
+          {
+            "id": "minority_self_administration",
+            "name": "Minority self-administration"
+          },
+          {
+            "id": "mixed_identity_cities",
+            "name": "Mixed-Identity Cities"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=uXeJS1Tory0&t=1567s"
+      }
+    }
+  },
+  "oromo-liberation-front": {
+    "ideology": "",
+    "name": "Oromo Liberation Front",
+    "stances": {
+      "economic_policy": {
+        "position": "The OLF plans to modernize agriculture by replacing traditional ox-plows with accessible, small-scale technologies and deploying experts directly to rural farmers. It rejects arbitrary numerical production targets and forced mono-cropping (like wheat), which it blames for malnutrition, advocating instead for empowering farmers to grow diversified crops suited to their local agro-ecology. The OLF views land as a generational public asset tied to identity and culture. It supports granting farmers indefinite use rights but strictly prohibits the sale of land to protect poor farmers from displacement by the wealthy, noting that the 'Land to the Tiller' concept originated from its own historical struggles. OLF plans to modernize agriculture by providing better machinery (tractors, combine harvesters, safe pesticide sprayers) and deploying agricultural experts directly to rural farmers, moving away from traditional ox-plow methods. OLF declines to give specific numerical targets, arguing that productivity depends on crop varieties, agro-ecology, and empowering farmers with knowledge rather than just dictating numbers. OLF claims that the foundational ideas for these land proclamations, specifically the \"Land to the Tiller\" concept, originated from OLF leaders' historical struggles against the feudal system.",
+        "sub_topics": [
+          {
+            "id": "agriculture_and_rural_development",
+            "name": "Agriculture and Rural Development"
+          },
+          {
+            "id": "land_tenure_policy",
+            "name": "Land Tenure Policy"
+          },
+          {
+            "id": "modernizing_agriculture",
+            "name": "Modernizing Agriculture"
+          },
+          {
+            "id": "production_targets_for_agro_industry",
+            "name": "Production Targets for Agro-Industry"
+          },
+          {
+            "id": "existing_land_proclamations",
+            "name": "Existing Land Proclamations"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3zRbfhtT4IQ&t=3494s"
+      },
+      "human_rights_justice": {
+        "position": "The party is committed to peaceful, fair, and credible elections, actively preparing its supporters to accept the results. It also promises to ensure freedom of expression, assembly, and organization to foster truly independent civil society organizations free from political interference.",
+        "sub_topics": [
+          {
+            "id": "elections_and_civic_space",
+            "name": "Elections and Civic Space"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=2045s"
+      },
+      "security_peace": {
+        "position": "The OLF advocates for resolving political differences, border disputes, and security issues through an all-inclusive national political conference and democratizing the constitution within its first year. It emphasizes peaceful political dialogue from the ground up and rejects armed struggle for state power, noting a strategic difference with armed groups like the OLA. OLF clarifies that it returned to Ethiopia to pursue its goals peacefully and has a strategic difference with the Oromo Liberation Army (OLA), which pursues armed struggle. OLF advocates for an all-inclusive national conference to resolve the country's political differences peacefully.",
+        "sub_topics": [
+          {
+            "id": "peace_security_and_political_dialogue",
+            "name": "Peace, Security, and Political Dialogue"
+          },
+          {
+            "id": "armed_struggle_for_state_power",
+            "name": "Armed struggle for state power"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=1500s"
+      },
+      "social_inclusion": {
+        "position": "As a registered national party, the OLF envisions an Ethiopia where all nations and nationalities live in equality, peace, and mutual respect without the dominance of any single group. It maintains that the Oromo people's demand for self-determination remains unmet and highlights its 50-year struggle as instrumental in saving Oromo identity and inspiring other regions. OLF asserts it is a registered national party that has historically fought for the equality, peace, and mutual respect of all nations and nationalities in Ethiopia, combating the dominance of any single group.",
+        "sub_topics": [
+          {
+            "id": "national_vision_and_self_determination",
+            "name": "National Vision and Self-Determination"
+          },
+          {
+            "id": "olf_s_national_vision",
+            "name": "OLF's National Vision"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=5201s"
+      }
+    }
+  },
+  "peace-for-ethiopia-coalition": {
+    "ideology": "",
+    "name": "Peace for Ethiopia Coalition",
+    "stances": {
+      "economic_policy": {
+        "position": "Plans to implement a progressive social democratic system and structural reforms to improve civil servant salaries and eliminate corruption.",
+        "sub_topics": [
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=-lZqsvPkYLY&t=2343s"
+      },
+      "education_labor": {
+        "position": "Advocates for multiple federal working languages and constitutional recognition of language and identity. Supports a civil service recruitment system based primarily on merit, but inclusive of diversity to empower marginalized groups. Will implement changes based on public desire and consent. Advocates for a balanced approach based on proportional federalism, prioritizing merit but also including diversity and empowering marginalized groups. Proposes a presidential system to separate the executive, legislative, and judicial branches, preventing arbitrary interference. Plans to improve salaries through institutional and structural reforms, eliminating corruption, and implementing a progressive social democratic system.",
+        "sub_topics": [
+          {
+            "id": "language_policy",
+            "name": "Language Policy"
+          },
+          {
+            "id": "civil_service_reform",
+            "name": "Civil Service Reform"
+          },
+          {
+            "id": "referendums_and_language_policy",
+            "name": "Referendums and Language Policy"
+          },
+          {
+            "id": "merit_vs_ethnic_representation",
+            "name": "Merit vs. Ethnic Representation"
+          },
+          {
+            "id": "political_independence_of_civil_service",
+            "name": "Political Independence of Civil Service"
+          },
+          {
+            "id": "civil_servant_salaries_and_cost_of_living",
+            "name": "Civil Servant Salaries and Cost of Living"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=4526s"
+      },
+      "governance_constitutional": {
+        "position": "Advocates for a 'balanced multinational federalism' that corrects current implementation flaws rather than abandoning federalism for a unitary system. Proposes a presidential system with a directly elected president to ensure separation of powers. Proposes a bicameral legislature with a House of Representatives and a Senate consisting of two representatives per province. Plans to replace the term 'region' with 'province', eliminate zones to reduce bureaucracy, and name provinces based on consensus rather than a single ethnicity. Proposes establishing an independent Constitutional Court to interpret the constitution, replacing the House of Federation's role. Rejects Article 39 (the right to secession) and advocates for its removal based on public decision. Aims to return revenues unfairly centralized to the federal government back to the provinces. Advocates for a proportional multinational federalism with a presidential system, a bicameral legislature, and a separate Constitutional Court. Will abandon the term 'region' for 'province' and eliminate zones to reduce bureaucracy, answering structural demands purely by law. Acknowledges the federal government holds residual powers and plans to restructure provinces to address revenues unfairly centralized. Proposes an independent Constitutional Court, criticizing the House of Federation for lacking checks and balances. Rejects a unitary system and plans to fix implementation issues through a balanced multinational federalism ensuring proportional structures and fair wealth distribution. Argues structure and operation must be integrated, so government structure must accommodate group rights like language and culture. Explains that proportional federalism means avoiding extremes and ensuring citizens get jobs based on merit and inclusive criteria, leading to fair compensation and accountability. The coalition argues that the problem is not federalism itself but its flawed implementation, which has created large, oppressive regions. They aim to fix this implementation. The coalition states that the number of regions doesn't matter; if an ethnic group demands regional status and meets constitutional criteria, their request must be answered. The coalition prefers removing the secession clause if the public decides so, arguing that oppressed groups want their rights respected within Ethiopia, not to secede. The coalition accepts the spirit of federalism but will correct the practices in both Houses to ensure they truly protect the rights and representation of all peoples. The coalition explains that while the constitution grants self-rule, ruling parties have practically denied this right, forcing groups under oppressive regional structures. They will ensure constitutional rights to self-rule are implemented.",
+        "sub_topics": [
+          {
+            "id": "federalism_and_government_structure",
+            "name": "Federalism and Government Structure"
+          },
+          {
+            "id": "regional_structuring",
+            "name": "Regional Structuring"
+          },
+          {
+            "id": "constitutional_interpretation",
+            "name": "Constitutional Interpretation"
+          },
+          {
+            "id": "article_39_secession",
+            "name": "Article 39 (Secession)"
+          },
+          {
+            "id": "division_of_power",
+            "name": "Division of Power"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          },
+          {
+            "id": "government_structure_vs_citizens_rights",
+            "name": "Government Structure vs. Citizens' Rights"
+          },
+          {
+            "id": "proportional_federalism_and_civil_service_reforms",
+            "name": "Proportional Federalism and Civil Service Reforms"
+          },
+          {
+            "id": "number_of_regions",
+            "name": "Number of regions"
+          },
+          {
+            "id": "article_39",
+            "name": "Article 39"
+          },
+          {
+            "id": "house_of_federation_representation",
+            "name": "House of Federation representation"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=263s"
+      },
+      "social_inclusion": {
+        "position": "Believes government structure must accommodate group rights and protect minorities from being suppressed within large regions. Uses balanced multinational federalism to protect ethnic rights while ensuring administrative convenience and multiple federal working languages. The coalition defines them as peoples with their own distinct identities and opposes situations where large regions suppress the distinct identities of minorities within them.",
+        "sub_topics": [
+          {
+            "id": "minority_rights",
+            "name": "Minority Rights"
+          },
+          {
+            "id": "balancing_rights_and_legislature_structure",
+            "name": "Balancing Rights and Legislature Structure"
+          },
+          {
+            "id": "definition_of_nations_nationalities",
+            "name": "Definition of Nations/Nationalities"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=1412s"
+      }
+    }
+  },
+  "prosperity-party": {
+    "ideology": "Guided by the pragmatic 'Medemer' (Synergy) philosophy rather than rigid ideology, implementing a multi-sectoral Homegrown Economic Reform. Supports floating the Birr to find its true market value and ensuring the independence of the National Bank.",
+    "name": "Prosperity Party",
+    "stances": {
+      "culture_tourism": {
+        "position": "Introduced a comprehensive language policy proposing five working languages, protects cultural heritage while developing new tourism infrastructure, and aims to make Ethiopia Africa's leading tourist center. Prosperity defends its handling of the Adwa celebration, stating they built a massive, fitting memorial to honor the sacrifices made, which was previously lacking in Addis Ababa. They argue that the new memorial elevates the holiday and provides a proper place for citizens and foreign leaders to pay respects, rather than diminishing it. The party aims to reach 7 million tourists, create numerous jobs, and make Ethiopia the leading tourist center in Africa. The party strongly denied demolishing heritage, explaining their philosophy is to protect past heritage while building new ones. They cited heavy investments in restoring Lalibela, Sof Omar, Jimma Abba Jifar, and Fasilides, and stated that corridor developments elevated, rather than destroyed, these sites. The party explained that their development vision is multi-sectoral, encompassing eco-tourism, cultural, sports, and conference tourism. They emphasized the success of conference tourism and the inclusion of tourism in macroeconomic reforms to mobilize resources and incentivize the private sector. The party questioned the opposition's contribution to peace. They argued that tourists are not targeted by organized crime in Ethiopia, reflecting the people's hospitality, and warned that discouraging tourism due to security harms citizens' livelihoods.",
+        "sub_topics": [
+          {
+            "id": "language_culture_and_tourism",
+            "name": "Language, Culture, and Tourism"
+          },
+          {
+            "id": "adwa_celebration",
+            "name": "Adwa celebration"
+          },
+          {
+            "id": "5_year_tourism_targets",
+            "name": "5-year tourism targets"
+          },
+          {
+            "id": "heritage_protection_and_corridor_development",
+            "name": "Heritage protection and corridor development"
+          },
+          {
+            "id": "halal_tourism",
+            "name": "Halal tourism"
+          },
+          {
+            "id": "bringing_peace_for_tourism",
+            "name": "Bringing peace for tourism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=3795s"
+      },
+      "economic_policy": {
+        "position": "Guided by the pragmatic 'Medemer' (Synergy) philosophy rather than rigid ideology, implementing a multi-sectoral Homegrown Economic Reform. Supports floating the Birr to find its true market value and ensuring the independence of the National Bank. Aims for food security and agricultural transformation by subsidizing inputs, building domestic fertilizer plants, and promoting mechanization. Supports the current land framework allowing land use rights as collateral. Clarified that the policy offers up to a 60% tax exemption as an incentive for companies that hire PWDs, not a requirement to hire a 60% PWD workforce. The party is addressing corruption through land registration, certification, and digitalization. They are linking land holdings to digital IDs, implementing a cadastre system, and taking legal action against corrupt officials and brokers. The party believes land is a historic question that must be resolved through full public participation, not just by elites. They view land as tied to identity and values, not just an economic commodity. They have submitted their stance to the Dialogue Commission to ensure the public decides. The law successfully expanded financial access for farmers. Banks are encouraged to lend based on the wealth generated on the land, not by selling the land itself. In practice, farmers have been responsible borrowers, repaying loans, meaning banks haven't faced significant risks. The 15-year extension protects vulnerable groups by giving them more time to claim their inheritance rights. Regarding taxes, farmers pay a minimal land use fee and taxes on production, which is standard globally. The tax-to-GDP ratio is low, and farmers view paying taxes as a confirmation of their holding rights. The $31 billion in Foreign Direct Investment was attracted over the last eight years, primarily in the manufacturing, agriculture, and service sectors. The Prosperity Party focuses on creating permanent jobs through a multi-sectoral approach, increasing productivity, and providing targeted subsidies for vulnerable citizens. The Prosperity Party aims to combat corruption through ethical education and by digitizing government services to minimize human contact. The Prosperity Party believes institutional independence is being secured through recent legal proclamations and technical capacity building, rather than necessarily requiring a constitutional amendment. The Prosperity Party states that the monetary policy committee is legally established under the new National Bank proclamation and includes independent experts. The Prosperity Party defends the currency float as necessary to discover the Birr's true value, which has already resulted in tripled exports and record foreign direct investment. PP is guided by the homegrown philosophy of \"Medemer\" (Synergy), which is a pragmatic approach that combines effective solutions from both East and West to address Ethiopia's specific challenges, rather than strictly adhering to a rigid ideology. PP argues past growth lacked quality, relied on commercial debt, and was not inclusive. Their Homegrown Economic Reform focuses on a multi-sectoral approach, unlocking potential in mining, tourism, manufacturing, and the digital economy. PP asserts the reform was designed entirely by Ethiopian experts and supported by the IMF because of its strength. They also clarify they are not blindly privatizing, but actively strengthening state-owned enterprises to be profitable. PP explains that the apparent increase in the debt ratio is solely due to the exchange rate adjustment. The government has not taken new commercial loans and has actually saved billions through debt restructuring. PP states they have successfully reduced inflation to single digits through coordinated policies. However, the cost of living remains a challenge due to rapid population growth, which requires continuous massive increases in production. The current policy belongs to the FDRE government. The Prosperity Party, having been elected, developed and approved it through extensive public and scholarly consultation. Prosperity is being built through job creation and improving living conditions, such as through corridor development. Prosperity Party clarifies they haven't claimed full food sovereignty yet, but are on the path. They attribute inflation to global increases in production costs (fertilizer, fuel) rather than a lack of production, and outline plans to produce fertilizer domestically to lower costs. The government remains in fertilizer supply to ensure adequate provision and subsidies for farmers, as the private sector cannot currently handle the massive foreign exchange requirements. The party asserts it has the capacity to correct errors and hold corrupt individuals accountable. Prosperity Party is working with international companies to develop domestic potash, phosphate, and natural gas resources to produce fertilizer locally within the next three to five years. The party acknowledges the gap between producer and consumer prices and is addressing it by expanding market infrastructure (like weekend markets), improving digital information access, and legally regulating brokerage. The government has implemented tax-free imports for agricultural machinery, increasing the number of tractors and mechanized farming areas, and is facilitating credit for farmers to purchase equipment. Prosperity Party is investing heavily in domestic fertilizer production (Urea, Phosphate, Potash) to reduce logistics costs. In the meantime, they are prioritizing foreign exchange for imports, providing massive subsidies (84 billion birr this year), and training farmers in vermicompost production. Prosperity Party assures that indigenous genetics are protected through a modern Gene Bank. Prosperity Party denies enforcing mono-cropping, stating their agricultural practices are based on scientific studies of local agro-ecology and comparative advantage, guided by the Agricultural Transformation Institute. Prosperity Party explains their strategy to establish agro-industries in every district based on their agricultural surplus, aiming to transition from subsistence farming to a market-led, industrialized rural economy. Prosperity Party acknowledges the high cost of living, attributing it to global increases in production costs rather than low domestic output. They are mitigating this through subsidies, tax exemptions for machinery, and shortening the market chain, while continuing to boost overall production. The party clarified that the government only intervenes to build demonstration projects in areas with huge backlogs (like Afar) where the private sector hasn't invested. They provide incentives for private investors, who ultimately run the businesses.",
+        "sub_topics": [
+          {
+            "id": "economic_policy_and_ideology",
+            "name": "Economic Policy and Ideology"
+          },
+          {
+            "id": "agriculture_and_land_tenure",
+            "name": "Agriculture and Land Tenure"
+          },
+          {
+            "id": "tax_policy",
+            "name": "Tax policy"
+          },
+          {
+            "id": "land_administration_corruption",
+            "name": "Land administration corruption"
+          },
+          {
+            "id": "de_facto_land_sales",
+            "name": "De facto land sales"
+          },
+          {
+            "id": "land_as_collateral",
+            "name": "Land as collateral"
+          },
+          {
+            "id": "inheritance_and_land_tax",
+            "name": "Inheritance and land tax"
+          },
+          {
+            "id": "foreign_direct_investment",
+            "name": "Foreign Direct Investment"
+          },
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "corruption",
+            "name": "Corruption"
+          },
+          {
+            "id": "nbe_independence",
+            "name": "NBE independence"
+          },
+          {
+            "id": "ideology_and_currency_floating",
+            "name": "Ideology and currency floating"
+          },
+          {
+            "id": "imf_privatization",
+            "name": "IMF & Privatization"
+          },
+          {
+            "id": "national_debt",
+            "name": "National Debt"
+          },
+          {
+            "id": "policy_ownership",
+            "name": "Policy Ownership"
+          },
+          {
+            "id": "prosperity_vs_reality",
+            "name": "Prosperity vs Reality"
+          },
+          {
+            "id": "food_sovereignty_aid",
+            "name": "Food Sovereignty & Aid"
+          },
+          {
+            "id": "fertilizer_supply_corruption",
+            "name": "Fertilizer Supply & Corruption"
+          },
+          {
+            "id": "domestic_fertilizer_production",
+            "name": "Domestic Fertilizer Production"
+          },
+          {
+            "id": "market_linkages_brokers",
+            "name": "Market Linkages & Brokers"
+          },
+          {
+            "id": "agricultural_mechanization",
+            "name": "Agricultural Mechanization"
+          },
+          {
+            "id": "fertilizer_supply_solutions",
+            "name": "Fertilizer Supply Solutions"
+          },
+          {
+            "id": "genetic_modification_national_debt",
+            "name": "Genetic Modification & National Debt"
+          },
+          {
+            "id": "mono_cropping_policy",
+            "name": "Mono-cropping Policy"
+          },
+          {
+            "id": "agro_processing",
+            "name": "Agro-processing"
+          },
+          {
+            "id": "government_role",
+            "name": "Government Role"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=2950s"
+      },
+      "education_labor": {
+        "position": "Implemented a new education roadmap and curriculum that includes moral education and enforces international assessment standards (50% passing mark) to improve quality, while providing housing and allowances to motivate teachers. Reforming the civil service through merit-based recruitment that considers diversity, implementing digital service centers to prevent corruption, and providing massive salary increases. Re-emphasizes inclusive multinational federalism and notes they have already made five languages federal working languages. The Prosperity Party highlights the creation of 3.7 million jobs and plans to continue a multi-sectoral approach, supporting private sector entrepreneurship and urban development. Believes merit and diversity do not conflict. Recruitment will be merit-based while taking diversity (ethnicity, language, gender, disability) into consideration. Claims the civil service is already free, though individuals can have political views. Asserts that political discussions in the workplace are about national agendas, not partisan campaigning. Highlights recent massive salary increases for civil servants, claiming it's the largest in Ethiopian history, demonstrating their commitment. States that civil servants are already organizing through professional associations (e.g., engineers, health professionals) and does not see the need for a separate general civil servants' union law. PP fully acknowledges that development successes are achieved through the hard work of the Ethiopian people. They argue the government has created an inclusive state where all citizens, including youth, actively participate in building the country. Education reform is a process. We are currently creating 3.5 million jobs annually. The new policy aims to produce citizens who can create their own jobs, and we have seen 1.9 million self-employment opportunities created in 5 years. The Prosperity Party argues that historically, imposing a single national language ignored Ethiopia's linguistic diversity and caused conflict. They believe a national language should reflect the country's diverse identity and require public consultation and constitutional amendment, potentially through the National Dialogue Commission. They defend their record by highlighting the introduction of a new language policy, the use of five working languages within the party, and educational reforms that promote multilingualism and mother-tongue instruction across regions.",
+        "sub_topics": [
+          {
+            "id": "education_policy",
+            "name": "Education Policy"
+          },
+          {
+            "id": "civil_service_reform",
+            "name": "Civil Service Reform"
+          },
+          {
+            "id": "referendums_and_language_policy",
+            "name": "Referendums and Language Policy"
+          },
+          {
+            "id": "job_creation",
+            "name": "Job creation"
+          },
+          {
+            "id": "merit_vs_ethnic_representation",
+            "name": "Merit vs. Ethnic Representation"
+          },
+          {
+            "id": "political_independence_of_civil_service",
+            "name": "Political Independence of Civil Service"
+          },
+          {
+            "id": "civil_servant_salaries_and_cost_of_living",
+            "name": "Civil Servant Salaries and Cost of Living"
+          },
+          {
+            "id": "civil_servant_labor_unions",
+            "name": "Civil Servant Labor Unions"
+          },
+          {
+            "id": "national_vs_working_language",
+            "name": "National vs. Working Language"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=1909s"
+      },
+      "foreign_policy": {
+        "position": "Ethiopia is building capacity to deter threats and bases relations on national interest. Foreign leaders visit for mutual interests, recognizing Ethiopia's growth. PP stands for reclaiming Ethiopia's lost rights.",
+        "sub_topics": [
+          {
+            "id": "foreign_policy_principles",
+            "name": "Foreign Policy Principles"
+          },
+          {
+            "id": "assab_and_foreign_visits",
+            "name": "Assab and Foreign Visits"
+          },
+          {
+            "id": "eprdf_legacy_and_port",
+            "name": "EPRDF Legacy and Port"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=1774s"
+      },
+      "governance_constitutional": {
+        "position": "Maintains that any constitutional amendments, including those regarding land tenure or language, must not be dictated unilaterally by the ruling party but decided by the public through the inclusive National Dialogue Commission. Advocates for multinational federalism to accommodate diversity and maintain unity, rejecting the label of ethnic federalism and emphasizing a shared national narrative. Will maintain the constitutional system based on geography, shared identity, and public consent, emphasizing a shared narrative for cooperative growth. Argues the system gives regions the right to develop themselves, citing a new proclamation for regional revenues, and has no immediate plans for constitutional change. Defends the House of Federation as representative of all Ethiopians and views constitutional interpretation as involving legal, political, and administrative balances. Rejects returning to a unitary state, clarifying they follow multinational federalism and believe local identities can strengthen Ethiopian unity. Defends using language for structure as it is a shared identity, and institutions can choose a language for administrative convenience based on public desire. Details reforms focusing on institutional building, legal framework revisions, merit-based deployment, and technology adoption to improve service delivery. The party believes constitutional amendments should not be dictated by the ruling party but must be based on public consensus achieved through an inclusive national dialogue. The party views Addis Ababa as the capital of Ethiopia and Africa, and believes that ongoing development in the city practically addresses the special interests of both Oromia and all Ethiopians. The party argues that conflicts are not solely caused by federalism but by divisive narratives, incomplete state-building, and a lack of dialogue culture, noting that conflicts existed even before federalism. The party views the creation of new regions as a response to democratic demands that must be respected if the public decides so, arguing that more regions can strengthen federalism. The party explains that the constitution is a political document as well as a legal one, and the House of Federation is assisted by legal experts in the Council of Constitutional Inquiry. Prosperity Party states it is correcting past mistakes of EPRDF and building true multinational federalism. Constitutional amendments must be done through the National Dialogue to ensure public participation. PP is different, having introduced the digital economy, digital IDs, and one-stop services, and it pursues a diversified, pragmatic economic approach.",
+        "sub_topics": [
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          },
+          {
+            "id": "regional_structuring",
+            "name": "Regional Structuring"
+          },
+          {
+            "id": "division_of_power",
+            "name": "Division of Power"
+          },
+          {
+            "id": "constitutional_interpretation",
+            "name": "Constitutional Interpretation"
+          },
+          {
+            "id": "government_structure_vs_citizens_rights",
+            "name": "Government Structure vs. Citizens' Rights"
+          },
+          {
+            "id": "proportional_federalism_and_civil_service_reforms",
+            "name": "Proportional Federalism and Civil Service Reforms"
+          },
+          {
+            "id": "addis_ababa_s_status",
+            "name": "Addis Ababa's status"
+          },
+          {
+            "id": "proliferation_of_regions",
+            "name": "Proliferation of regions"
+          },
+          {
+            "id": "pp_vs_eprdf",
+            "name": "PP vs EPRDF"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=2768s"
+      },
+      "healthcare_policy": {
+        "position": "Significantly increased the national health budget, expanded social health insurance, boosted local medicine production capacity, and pledged to hire all unemployed doctors within five years. We have successfully controlled major outbreaks like COVID-19 and Marburg, and are actively reducing malaria cases which spiked due to climate change. We have hired many professionals and plan to hire all currently unemployed doctors in the next five years, while also training specialists. We are focusing on prevention through lifestyle changes and early screening. We also subsidize chemotherapy in 33 hospitals and have expanded radiation therapy to 6 regional centers. We are working to ensure peace and ask opposition parties to condemn armed groups. We have already rebuilt and restored services to over 90% of damaged health facilities.",
+        "sub_topics": [
+          {
+            "id": "health_policy",
+            "name": "Health Policy"
+          },
+          {
+            "id": "epidemic_control",
+            "name": "Epidemic control"
+          },
+          {
+            "id": "doctor_unemployment",
+            "name": "Doctor unemployment"
+          },
+          {
+            "id": "non_communicable_diseases",
+            "name": "Non-communicable diseases"
+          },
+          {
+            "id": "conflict_and_health",
+            "name": "Conflict and health"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=IJSgkVaFq6U&t=4939s"
+      },
+      "human_rights_justice": {
+        "position": "The Prosperity Party argues that the National Bank is already gaining independence through recent reforms, guided by an independent monetary policy committee.",
+        "sub_topics": [
+          {
+            "id": "institutional_independence",
+            "name": "Institutional independence"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=2954s"
+      },
+      "infrastructure_housing": {
+        "position": "Corridor development represents their inclusive development philosophy. Displaced residents are beneficiaries moved to better areas with infrastructure. While acknowledging it was started earlier, PP fixed the project's corrupted management and design flaws to successfully complete it. PP doesn't claim sole credit; its \"Medemer\" philosophy builds on the past. PP fixed the project's problems and completed it with the people. Corridor development is a nationwide initiative implemented in over 76 cities to build a generation and improve residents' lives.",
+        "sub_topics": [
+          {
+            "id": "corridor_development",
+            "name": "Corridor Development"
+          },
+          {
+            "id": "gerd_legacy",
+            "name": "GERD Legacy"
+          },
+          {
+            "id": "gerd_credit",
+            "name": "GERD Credit"
+          },
+          {
+            "id": "corridor_development_scope",
+            "name": "Corridor Development Scope"
+          }
+        ],
+        "video_url": ""
+      },
+      "security_peace": {
+        "position": "Prosperity Party states it has a firm stance against armed struggle, noting that the country has suffered from a cycle of war. While fulfilling its duty to enforce the law, the government has continuously called for and engaged in peace talks and negotiations with armed groups. Prosperity Party states that the vast majority of the country is peaceful, though problems exist in specific areas. They affirm that their doors remain open for peaceful negotiations with armed groups, emphasizing that peace requires willingness from both sides, not just the government. Prosperity Party explains that their law enforcement operations aim to target only armed combatants while protecting civilians. They plan to continue prioritizing peace calls and community engagement before using force, and will exercise extreme caution to protect innocent lives when force is necessary. Prosperity Party states that the constitution clearly gives the federal government the mandate to protect national borders. They have taken steps to correct the previous trend of heavily armed regional forces, ensuring regions only have regular police for daily security while strengthening the federal defense force. We are here to discuss education, the next generation, and modernization, not war. The government constantly calls for peace. It is paradoxical that you refuse to condemn those who kill teachers and close schools. Peace requires all parties, including extremists, to come to the negotiating table. We respect teachers and are working to build their capacity.",
+        "sub_topics": [
+          {
+            "id": "armed_struggle_for_state_power",
+            "name": "Armed struggle for state power"
+          },
+          {
+            "id": "implementing_peace_alternatives_and_negotiations",
+            "name": "Implementing peace alternatives and negotiations"
+          },
+          {
+            "id": "law_enforcement_measures",
+            "name": "Law enforcement measures"
+          },
+          {
+            "id": "regional_armaments_and_federal_control",
+            "name": "Regional armaments and federal control"
+          },
+          {
+            "id": "battlefield_analysis_missing_students",
+            "name": "Battlefield Analysis & Missing Students"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=3063s"
+      },
+      "social_inclusion": {
+        "position": "Believes self-administration is the foundation for unity and that citizens can develop their culture while building shared institutions. Has finalized the preparation of a comprehensive disability law, mandates a 2% candidate quota for PWDs, and claims 2% of its members are PWDs. Acknowledges the delay due to extensive consultations but confirms the preparation is complete and it will be ratified shortly. Mandates a 2% quota for PWD candidates, including women. Addresses GBV through awareness, legal accountability, and economic empowerment, and claims to be making services and infrastructure accessible. Claims the government has provided land to many charities like Mekedonia and is supporting the elderly with housing and private sector partnerships. The party asserts that land acquisition for public development is done legally, with compensation and substitute land provided. In cities, development aims to improve substandard living conditions, and displaced individuals are compensated and relocated to better conditions according to the law. Prosperity clarifies that while land ownership is historically tied to identity and federalism, land holding rights are not; any Ethiopian can acquire land anywhere regardless of ethnicity. They define 'land grabbing' as individuals illegally occupying land for personal gain without legal certification or contrary to land use plans. Defends political appointees as standard practice for a ruling party to execute its mandate, but notes they have included opposition members in leadership. PP accommodates multinational unity and implements non-discriminatory development nationwide, aligning with the book's unifying narrative. Prosperity Party disputes the opposition's figures as exaggerated. They claim to have reduced the number of aid recipients from 27 million to 2.4 million through increased productivity. They are also building a Disaster Risk Response Fund and strategic reserves to handle crises independently, and are working to return displaced persons. The party countered that tourism is inherently pro-poor, creating numerous jobs. They cited Wenchi as an example where locals became owners of guest houses and suppliers of agricultural products to tourists and lodges.",
+        "sub_topics": [
+          {
+            "id": "balancing_rights_and_legislature_structure",
+            "name": "Balancing Rights and Legislature Structure"
+          },
+          {
+            "id": "disability_inclusion_and_orphans",
+            "name": "Disability Inclusion and Orphans"
+          },
+          {
+            "id": "ratification_of_women_s_policy",
+            "name": "Ratification of Women's Policy"
+          },
+          {
+            "id": "female_pwd_candidates_and_disability_models",
+            "name": "Female PWD Candidates and Disability Models"
+          },
+          {
+            "id": "gbv_and_road_accessibility",
+            "name": "GBV and Road Accessibility"
+          },
+          {
+            "id": "land_for_charities_and_elderly_support",
+            "name": "Land for Charities and Elderly Support"
+          },
+          {
+            "id": "displacement_of_private_landholders",
+            "name": "Displacement of private landholders"
+          },
+          {
+            "id": "identity_and_land_grabbing",
+            "name": "Identity and land grabbing"
+          },
+          {
+            "id": "political_appointees_and_marginalized_ethnic_groups",
+            "name": "Political Appointees and Marginalized Ethnic Groups"
+          },
+          {
+            "id": "identity_politics",
+            "name": "Identity Politics"
+          },
+          {
+            "id": "displacement_food_aid",
+            "name": "Displacement & Food Aid"
+          },
+          {
+            "id": "displacement_and_pro_poor_tourism",
+            "name": "Displacement and pro-poor tourism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=4800s"
+      }
+    }
+  },
+  "qimant-democratic-party": {
+    "ideology": "",
+    "name": "Qimant Democratic Party",
+    "stances": {
+      "education_labor": {
+        "position": "While the Qimant language will be used for administration, the language rights of other ethnic groups will be respected and accommodated. Prioritizing these rights is mandatory despite administrative costs. The administration will use the Qimant language, but other ethnic groups will be respected and allowed to use their own languages. The party will encourage minorities to learn the local language voluntarily while respecting their right to use their own.",
+        "sub_topics": [
+          {
+            "id": "language_policy_for_minorities",
+            "name": "Language policy for minorities"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ABmWjAn_Cyk&t=1513s"
+      },
+      "social_inclusion": {
+        "position": "Minority ethnic groups within the Qimant administration will be granted political, economic, and social representation according to the law, and their demands will be respected and addressed based on the constitution and research. Both personal and social identities must be respected. Individual rights to self-recognition are addressed alongside the mandatory obligation to protect group rights based on shared language, culture, and values. Once the Qimant people's right to self-administration is secured, other ethnic groups living within the administration will be judged according to the law and given political and economic representation based on their needs. Identity is both personal and social. Personal identity and self-recognition must be respected, but social (group) identities based on language, culture, and shared values also carry a mandatory obligation to be respected. Both are addressed together.",
+        "sub_topics": [
+          {
+            "id": "minority_rights_within_new_self_administrations",
+            "name": "Minority rights within new self-administrations"
+          },
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ABmWjAn_Cyk&t=1194s"
+      }
+    }
+  },
+  "raya-rayuma-democratic-party": {
+    "ideology": "The party follows a center-left social democracy ideology and democratic federalism. It prioritizes individual rights as the foundation for group rights, opposes regions belonging exclusively to one ethnic group, and strongly advocates for the right to free movement.",
+    "name": "Raya Rayuma Democratic Party",
+    "stances": {
+      "foreign_policy": {
+        "position": "Proposes a controlled dual citizenship system to reduce brain drain.",
+        "sub_topics": [
+          {
+            "id": "citizenship",
+            "name": "Citizenship"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=3012s"
+      },
+      "governance_constitutional": {
+        "position": "The party follows a center-left social democracy ideology and democratic federalism. It prioritizes individual rights as the foundation for group rights, opposes regions belonging exclusively to one ethnic group, and strongly advocates for the right to free movement. While accepting most of the constitution, the party seeks to amend Article 39 (the right to secession) because it threatens national unity. It emphasizes the practical implementation of the human and democratic rights provisions already present in the constitution. The party accepts most of the constitution but wants to amend specific parts, such as Article 39 (the right to secession), which they believe threatens national unity. They emphasize the need to actually implement the human rights provisions already in the constitution.",
+        "sub_topics": [
+          {
+            "id": "political_ideology_and_federalism",
+            "name": "Political Ideology and Federalism"
+          },
+          {
+            "id": "constitutional_reform",
+            "name": "Constitutional Reform"
+          },
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=3199s"
+      },
+      "human_rights_justice": {
+        "position": "Pledges to establish strong, independent justice and security structures free from government interference. This includes setting up independent monitoring and evaluation teams drawn from all sections of society to oversee justice institutions, ensure the rule of law, and bring perpetrators of violence to justice. Prioritizes the protection of human and democratic rights as a necessary foundation for development and survival. Advocates for a security apparatus (police, military, intelligence) that is independent and free from political interference.",
+        "sub_topics": [
+          {
+            "id": "justice_and_accountability",
+            "name": "Justice and Accountability"
+          },
+          {
+            "id": "human_rights_and_security",
+            "name": "Human Rights and Security"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=1873s"
+      },
+      "infrastructure_housing": {
+        "position": "The party believes the project was poorly studied and ignored citizens' social structures. They suggest building apartments in the same areas to keep communities together instead of displacing them.",
+        "sub_topics": [
+          {
+            "id": "corridor_development_evictions",
+            "name": "Corridor Development Evictions"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=4225s"
+      },
+      "security_peace": {
+        "position": "Plans to use indigenous knowledge and elders to create common understanding and resolve issues, promoting behavioral change so citizens respect each other's humanity.",
+        "sub_topics": [
+          {
+            "id": "conflict_resolution_and_social_cohesion",
+            "name": "Conflict Resolution and Social Cohesion"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=3685s"
+      },
+      "social_inclusion": {
+        "position": "Advocates for the right of all ethnic groups in the Raya area to learn and be judged in their own languages. While recognizing that oppression occurred nationwide, the party highlights the specific historical marginalization and displacement of the Raya people. It supports the right to self-determination but opposes secession. Prioritizes post-war rehabilitation and reconstruction for conflict victims. Plans to provide psychological support and training for people with disabilities, ensuring that infrastructure and social services are inclusive and accessible for people with special needs. The party follows social democracy and democratic federalism, prioritizing individual rights as the basis for group rights. They support self-administration but oppose regions belonging exclusively to one group, advocating for free movement. The party advocates for the rights of all ethnic groups in the Raya area to learn and be judged in their own languages. They support self-determination but oppose secession, and propose a controlled dual citizenship system. The party emphasizes creating common understanding around the constitution, using indigenous knowledge and elders, and promoting behavioral change to ensure people respect each other. The party prioritizes post-war rehabilitation and reconstruction, coordinating support for victims. They have an inclusive policy for people with disabilities, focusing on psychological support, training, and accessible infrastructure.",
+        "sub_topics": [
+          {
+            "id": "group_rights_and_the_raya_region",
+            "name": "Group Rights and the Raya Region"
+          },
+          {
+            "id": "post_conflict_rehabilitation_and_disability_inclusion",
+            "name": "Post-Conflict Rehabilitation and Disability Inclusion"
+          },
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          },
+          {
+            "id": "group_rights_protection",
+            "name": "Group Rights Protection"
+          },
+          {
+            "id": "preventing_displacement",
+            "name": "Preventing Displacement"
+          },
+          {
+            "id": "post_conflict_rehabilitation_disability_inclusion",
+            "name": "Post-Conflict Rehabilitation & Disability Inclusion"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=2930s"
+      }
+    }
+  },
+  "renaissance-party": {
+    "ideology": "",
+    "name": "Renaissance Party",
+    "stances": {
+      "economic_policy": {
+        "position": "Reduce the cost of living and create jobs by focusing on agriculture and manufacturing, improving the banking system for youth lending, and providing tax incentives for investors. Ensure the independence of the National Bank through an independent board accountable to parliament, modernize the tax system to broaden the base and reduce corruption, and encourage diaspora investment. The Renaissance Party plans to reduce the cost of living by creating jobs, particularly for the youth in agriculture and manufacturing, and by establishing legal systems to control corruption and inflation. The Renaissance Party plans to involve the diaspora in the economy and modernize the tax system to broaden the base and reduce corruption.",
+        "sub_topics": [
+          {
+            "id": "economic_policy_and_job_creation",
+            "name": "Economic Policy and Job Creation"
+          },
+          {
+            "id": "macroeconomic_institutions_and_taxation",
+            "name": "Macroeconomic Institutions and Taxation"
+          },
+          {
+            "id": "economic_policy",
+            "name": "Economic Policy"
+          },
+          {
+            "id": "tax_policy",
+            "name": "Tax policy"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1916s"
+      },
+      "education_labor": {
+        "position": "Elevate more than five languages to working languages, establish a national language based on public acceptance and demographics (over 6 million speakers), and provide primary education in mother tongues. The Renaissance Party aims to foster innovation and entrepreneurship by improving the credit system and providing tax incentives for both domestic and foreign investors. The party plans to elevate more than five languages to the status of working languages based on geographic location and public consultation. They argue that currently there is no \"national language\" in Ethiopia, only a working language, and they will establish a national language after studying public acceptance and speaker demographics (targeting languages with over 6 million speakers). They also advocate for primary education in mother tongues.",
+        "sub_topics": [
+          {
+            "id": "language_and_cultural_policy",
+            "name": "Language and Cultural Policy"
+          },
+          {
+            "id": "job_creation",
+            "name": "Job creation"
+          },
+          {
+            "id": "national_and_working_languages",
+            "name": "National and working languages"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=1504s"
+      },
+      "governance_constitutional": {
+        "position": "Advocate for citizen-centered liberalism that empowers individuals and collectives without categorizing citizens by language groups. Renaissance Party briefly interjects to state that their ideology is citizen-centered liberalism, which allows citizens to use their full potential individually and collectively, without categorizing people into groups based on language.",
+        "sub_topics": [
+          {
+            "id": "federalism_and_group_rights",
+            "name": "Federalism and Group Rights"
+          },
+          {
+            "id": "federalism",
+            "name": "Federalism"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=5538s"
+      },
+      "human_rights_justice": {
+        "position": "Civic associations must operate independently from government interference to effectively fight for justice. Argues that current associations are used for political purposes by the ruling party and need to be truly independent to fight for justice. The Renaissance Party proposes an independent board to lead the National Bank, separating monetary policy from government fiscal policy, with accountability to the parliament.",
+        "sub_topics": [
+          {
+            "id": "independence_of_civic_associations",
+            "name": "Independence of Civic Associations"
+          },
+          {
+            "id": "institutional_independence",
+            "name": "Institutional independence"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=4157s"
+      },
+      "social_inclusion": {
+        "position": "Support persons with disabilities through mandatory inclusive building designs, a 5% job quota, discounted health services, tailored vocational training, and official recognition of sign language and Braille. Promises mandatory inclusive building designs, a 5% job quota for PWDs, and details its PWD candidate and leadership numbers. Will integrate PWDs into society with government support, but needs to conduct studies to determine the exact model.",
+        "sub_topics": [
+          {
+            "id": "disability_inclusion_and_support",
+            "name": "Disability Inclusion and Support"
+          },
+          {
+            "id": "disability_inclusion_and_orphans",
+            "name": "Disability Inclusion and Orphans"
+          },
+          {
+            "id": "female_pwd_candidates_and_disability_models",
+            "name": "Female PWD Candidates and Disability Models"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2436s"
+      }
+    }
+  },
+  "sidama-unity-party": {
+    "ideology": "",
+    "name": "Sidama Unity Party",
+    "stances": {
+      "human_rights_justice": {
+        "position": "The party advocates for the equal rights, freedom of religion, speech, and assembly of all citizens. It is committed to ensuring that all ethnic groups have the right to live, work, and own property together in unity, regardless of their ethnic background. The party promises to establish judicial independence by freeing courts from government interference, making the police accountable to the law, and ensuring legal accountability for human rights violations.",
+        "sub_topics": [
+          {
+            "id": "human_rights_and_equality",
+            "name": "Human Rights and Equality"
+          },
+          {
+            "id": "justice_and_accountability",
+            "name": "Justice and Accountability"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=1293s"
+      },
+      "infrastructure_housing": {
+        "position": "The party criticizes the corridor development for lacking proper study and failing to prioritize citizens, leading to uncompensated evictions. They advocate for development based on economic studies and legal frameworks with proper compensation.",
+        "sub_topics": [
+          {
+            "id": "corridor_development_evictions",
+            "name": "Corridor Development Evictions"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=4104s"
+      },
+      "security_peace": {
+        "position": "To prevent displacement and identity-based attacks, the party plans to resolve conflicts early by utilizing local elders, religious leaders, and government institutions.",
+        "sub_topics": [
+          {
+            "id": "conflict_resolution_and_displacement",
+            "name": "Conflict Resolution and Displacement"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=3599s"
+      },
+      "social_inclusion": {
+        "position": "The party fights against the injustices and oppression faced by the Sidama people and advocates for equal rights, freedom of religion, and unity for all ethnic groups living in the region. The party will ensure equal rights, freedom of religion, and the right to work and own property for all citizens in the region, regardless of their ethnic background, based on laws drafted with public consultation. The party plans to prevent displacement by addressing issues early through local elders, religious leaders, and government institutions before they escalate.",
+        "sub_topics": [
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          },
+          {
+            "id": "minority_rights_in_sidama",
+            "name": "Minority Rights in Sidama"
+          },
+          {
+            "id": "preventing_displacement",
+            "name": "Preventing Displacement"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=aNQccF3jTT4&t=1191s"
+      }
+    }
+  },
+  "wollo-peoples-democratic-party": {
+    "ideology": "",
+    "name": "Wollo Peoples' Democratic Party",
+    "stances": {
+      "economic_policy": {
+        "position": "The party advocates for private land ownership alongside state and communal land, allowing farmers the legal right to sell, exchange, and lease their land. They argue that the current constitutional provision making land exclusive state property is the root cause of land issues, and they have submitted constitutional amendment proposals to address this. The party rejects the narrative that selling land leads to poverty, arguing instead that it allows farmers to raise capital to modernize and increase productivity. They contend that displacement already occurs under the current system without fair compensation for the land itself, whereas private ownership would empower farmers to negotiate fair compensation or use their assets to generate wealth. Recognizing that land is deeply connected to identity, the party asserts that border disputes tied to ethnic identity are a primary cause of conflict. They propose resolving these issues by establishing clear, research-based legal frameworks for state, private, and communal land. The party plans to amend the constitution and other relevant laws to create a legal framework for selling and exchanging land. They argue that currently, it's not the land being sold but the property on it during government displacement. Legalizing land sales will give farmers the legal right to manage their property. The idea that selling land leads to poverty is a false narrative designed to prevent farmers from building wealth. Selling a portion of land can provide capital to modernize farming. Regarding youth, detailed policies and legal frameworks will be established to ensure family land transfers and youth land ownership rights. Wollo argues that Prosperity's policy of using land as collateral actually risks transferring land to banks if farmers default. Wollo believes allowing farmers to sell or exchange land gives them the opportunity to utilize their own assets to generate wealth and access other services.",
+        "sub_topics": [
+          {
+            "id": "land_ownership_and_administration",
+            "name": "Land Ownership and Administration"
+          },
+          {
+            "id": "land_sales_displacement_and_economic_growth",
+            "name": "Land Sales, Displacement, and Economic Growth"
+          },
+          {
+            "id": "land_and_ethnic_identity",
+            "name": "Land and Ethnic Identity"
+          },
+          {
+            "id": "land_sales_and_displacement",
+            "name": "Land sales and displacement"
+          },
+          {
+            "id": "land_concentration_and_youth",
+            "name": "Land concentration and youth"
+          },
+          {
+            "id": "land_sales_and_sovereignty",
+            "name": "Land sales and sovereignty"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=1519s"
+      },
+      "foreign_policy": {
+        "position": "The party prioritizes individual citizenship rights over group rights, arguing that group rights stem from individual rights. They plan to amend the constitution to ensure individual rights precede group rights, while maintaining group rights as long as they do not restrict individual freedoms. They reject organizing politics along ethnic or religious lines. The party supports allowing dual citizenship to encourage diaspora Ethiopians to invest their knowledge and wealth in the country. Dual citizens will be held legally accountable under Ethiopian law for any crimes committed within Ethiopia. WPDP permits dual citizenship to encourage diaspora Ethiopians to invest in the country. They state that dual citizens will be held legally accountable under Ethiopian law for any offenses committed within Ethiopia. WPDP supports dual citizenship to allow diaspora Ethiopians to invest in the country, subject to Ethiopian law. They argue that demanding Wollo statehood is a constitutional right to address the region's long-standing lack of peace and development.",
+        "sub_topics": [
+          {
+            "id": "citizenship_and_group_rights",
+            "name": "Citizenship and Group Rights"
+          },
+          {
+            "id": "dual_citizenship",
+            "name": "Dual Citizenship"
+          },
+          {
+            "id": "dual_citizenship_and_legal_accountability",
+            "name": "Dual Citizenship and Legal Accountability"
+          },
+          {
+            "id": "dual_citizenship_and_regional_statehood",
+            "name": "Dual Citizenship and Regional Statehood"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1415s"
+      },
+      "governance_constitutional": {
+        "position": "WPDP will amend the constitution to prioritize individual rights over group rights. They will also update it to include new rights issues while maintaining existing group rights that do not restrict individual freedoms.",
+        "sub_topics": [
+          {
+            "id": "constitutional_amendment",
+            "name": "Constitutional Amendment"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=2434s"
+      },
+      "social_inclusion": {
+        "position": "WPDP prioritizes individual citizenship rights, arguing that group rights are derived from individual rights. They reject organizing politics around ethnicity or religion, and clarify that their demand for Wollo statehood is based on administrative and developmental needs for a multi-ethnic region. WPDP argues Wollo is a historically significant region that has been denied development and good governance. The demand for statehood is a constitutional right to address these administrative and developmental grievances.",
+        "sub_topics": [
+          {
+            "id": "individual_vs_group_rights",
+            "name": "Individual vs. Group Rights"
+          },
+          {
+            "id": "justification_for_wollo_statehood",
+            "name": "Justification for Wollo Statehood"
+          }
+        ],
+        "video_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw&t=1415s"
+      }
+    }
+  }
+}
