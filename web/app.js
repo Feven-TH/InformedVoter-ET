@@ -9,7 +9,7 @@ const state = {
   activeView: "topics",
   isSidebarOpen: true,
   sidebarWidth: 320,
-  isResizingSidebar: false,
+  mobileDetailMode: null,
   expandedCards: new Set(),
 };
 
@@ -23,9 +23,13 @@ const els = {
   topicList: document.querySelector("#topicList"),
   topicCards: document.querySelector("#topicCards"),
   selectedTopicTitle: document.querySelector("#selectedTopicTitle"),
+  topicsView: document.querySelector("#topicsView"),
+  topicsDetailColumn: document.querySelector("#topicsDetailColumn"),
   subTopicFilter: document.querySelector("#subTopicFilter"),
   partyList: document.querySelector("#partyList"),
   selectedPartyTitle: document.querySelector("#selectedPartyTitle"),
+  partiesView: document.querySelector("#partiesView"),
+  partiesDetailColumn: document.querySelector("#partiesDetailColumn"),
   partyProfile: document.querySelector("#partyProfile"),
   globalSearch: document.querySelector("#globalSearch"),
   chatForm: document.querySelector("#chatForm"),
@@ -80,9 +84,29 @@ function renderAll() {
   syncLayoutState();
 }
 
+function isMobileViewport() {
+  return window.matchMedia("(max-width: 767px)").matches;
+}
+
+function setMobileDetailMode(mode) {
+  state.mobileDetailMode = mode;
+  const isMobile = isMobileViewport();
+  const isTopicDetail = isMobile && mode === "topics";
+  const isPartyDetail = isMobile && mode === "parties";
+  els.appShell.classList.toggle("mobile-detail-open", isTopicDetail || isPartyDetail);
+  els.topicsView.classList.toggle("mobile-detail-open", isTopicDetail);
+  els.partiesView.classList.toggle("mobile-detail-open", isPartyDetail);
+
+  const activeDetailColumn = mode === "topics" ? els.topicsDetailColumn : mode === "parties" ? els.partiesDetailColumn : null;
+  if ((isTopicDetail || isPartyDetail) && activeDetailColumn) {
+    activeDetailColumn.scrollTop = 0;
+  }
+}
+
 function getSidebarWidthBounds() {
-  let min = 240;
-  const max = 420;
+  const viewportWidth = window.innerWidth || document.documentElement.clientWidth || 0;
+  let min = 220;
+  const max = Math.min(420, Math.max(260, Math.round(viewportWidth * 0.3)));
 
   if (els.sidebar && els.sidebarWordmark) {
     const sidebarStyle = window.getComputedStyle(els.sidebar);
@@ -156,6 +180,10 @@ async function selectTopic(topicId) {
   state.selectedTopicEntries = await api(`/api/topics/${encodeURIComponent(topicId)}`);
   renderSubTopicFilter();
   renderTopicCards();
+  if (isMobileViewport()) {
+    setSidebarOpen(false);
+    setMobileDetailMode("topics");
+  }
 }
 
 function renderSubTopicFilter() {
@@ -202,6 +230,10 @@ async function selectParty(slug) {
   const party = await api(`/api/parties/${encodeURIComponent(slug)}`);
   els.selectedPartyTitle.innerHTML = renderPartyName(party.name_am, party.name || slug);
   renderPartyProfile(party);
+  if (isMobileViewport()) {
+    setSidebarOpen(false);
+    setMobileDetailMode("parties");
+  }
 }
 
 function renderPartyProfile(party) {
@@ -446,6 +478,7 @@ function renderBold(value) {
 
 function setView(viewName) {
   state.activeView = viewName;
+  setMobileDetailMode(null);
   document.querySelectorAll(".nav-link").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === viewName);
   });
@@ -459,9 +492,6 @@ function setView(viewName) {
   };
   els.viewEyebrow.textContent = labels[viewName][0];
   els.viewTitle.textContent = labels[viewName][1];
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    setSidebarOpen(false);
-  }
 }
 
 function setSidebarOpen(isOpen) {
@@ -476,10 +506,14 @@ function setSidebarOpen(isOpen) {
 }
 
 function syncLayoutState() {
-  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const isMobile = isMobileViewport();
+  if (isMobile && state.isSidebarOpen) {
+    state.isSidebarOpen = false;
+  }
   els.appShell.style.setProperty("--sidebar-width", `${state.isSidebarOpen && !isMobile ? state.sidebarWidth : 0}px`);
   els.sidebarResizer.hidden = isMobile;
   setSidebarOpen(state.isSidebarOpen);
+  setMobileDetailMode(state.mobileDetailMode);
 }
 
 function setSidebarWidth(width) {
@@ -528,10 +562,21 @@ function escapeAttribute(value) {
 }
 
 document.querySelectorAll(".nav-link").forEach((button) => {
-  button.addEventListener("click", () => setView(button.dataset.view));
+  button.addEventListener("click", () => {
+    setView(button.dataset.view);
+    setSidebarOpen(false);
+  });
 });
 
-els.sidebarToggle.addEventListener("click", () => setSidebarOpen(!state.isSidebarOpen));
+els.sidebarToggle.addEventListener("click", () => {
+  if (isMobileViewport() && state.mobileDetailMode) {
+    setMobileDetailMode(null);
+    setSidebarOpen(true);
+    return;
+  }
+
+  setSidebarOpen(!state.isSidebarOpen);
+});
 els.sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
 els.sidebarResizer.addEventListener("pointerdown", startSidebarResize);
 
@@ -540,8 +585,16 @@ window.addEventListener("resize", () => {
   syncLayoutState();
 });
 
+const openMobileSearchResults = () => {
+  if (!isMobileViewport()) return;
+  setMobileDetailMode(null);
+  setSidebarOpen(true);
+};
+
+els.globalSearch.addEventListener("focus", openMobileSearchResults);
 els.globalSearch.addEventListener("input", () => {
   state.search = els.globalSearch.value;
+  openMobileSearchResults();
   renderTopics();
   renderParties();
   renderTopicCards();

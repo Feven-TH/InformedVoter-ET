@@ -34,7 +34,9 @@
 
       <main class="workspace">
         <header class="topbar">
-          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar">☰</button>
+          <div class="topbar-actions">
+            <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar">☰</button>
+          </div>
           <div class="topbar-context">
             <p class="eyebrow" id="viewEyebrow">Topic Comparison</p>
             <h2 id="viewTitle">Browse Evidence by Category</h2>
@@ -52,7 +54,7 @@
               </div>
               <div class="topic-list" id="topicList"></div>
             </div>
-            <div class="detail-column">
+            <div class="detail-column" id="topicsDetailColumn">
               <div class="detail-toolbar">
                 <div>
                   <p class="eyebrow">Selected Category</p>
@@ -75,7 +77,7 @@
               </div>
               <div class="party-list" id="partyList"></div>
             </div>
-            <div class="detail-column">
+            <div class="detail-column" id="partiesDetailColumn">
               <div class="detail-toolbar">
                 <div>
                   <p class="eyebrow">Selected Party</p>
@@ -96,7 +98,12 @@
             </div>
             <form class="chat-form" id="chatForm">
               <input id="chatInput" name="message" type="text" placeholder="Ask about land policy, federalism, healthcare..." autocomplete="off" />
-              <button type="submit">Send</button>
+              <button type="submit" aria-label="Send message">
+                <span class="send-label">Send</span>
+                <svg class="send-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <path d="M5 12H19M13 6L19 12L13 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
             </form>
           </div>
         </section>
