@@ -15,7 +15,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
-from .config import TOPIC_REGISTRY
+from .config import TOPIC_REGISTRY, load_party_name_registry
 from .engine import ChatResult, InformedVoterEngine
 
 
@@ -82,10 +82,14 @@ def frontend() -> FileResponse:
 @app.get("/api/registry")
 def get_registry() -> dict[str, Any]:
     engine = get_engine()
+    party_names = load_party_name_registry()
     return {
         "topics": TOPIC_REGISTRY,
         "parties": {
-            slug: profile.get("name", slug)
+            slug: {
+                "name": party_names.get(slug, {}).get("name", profile.get("name", slug)),
+                "name_am": party_names.get(slug, {}).get("name_am", ""),
+            }
             for slug, profile in engine.party_index.items()
             if isinstance(profile, dict)
         },
@@ -94,6 +98,7 @@ def get_registry() -> dict[str, Any]:
 
 @app.get("/api/parties")
 def get_parties() -> list[dict[str, Any]]:
+    party_names = load_party_name_registry()
     parties = []
     for slug, profile in get_engine().party_index.items():
         if not isinstance(profile, dict):
@@ -102,7 +107,8 @@ def get_parties() -> list[dict[str, Any]]:
         parties.append(
             {
                 "slug": slug,
-                "name": profile.get("name", slug),
+                "name": party_names.get(slug, {}).get("name", profile.get("name", slug)),
+                "name_am": party_names.get(slug, {}).get("name_am", ""),
                 "ideology": profile.get("ideology", ""),
                 "stance_count": len(stances) if isinstance(stances, dict) else 0,
             }
@@ -115,7 +121,11 @@ def get_party(slug: str) -> dict[str, Any]:
     party = get_engine().get_party(slug)
     if party is None:
         raise HTTPException(status_code=404, detail=f"Party not found: {slug}")
-    return party
+    enriched_party = dict(party)
+    party_names = load_party_name_registry()
+    enriched_party["name"] = party_names.get(slug, {}).get("name", enriched_party.get("name", slug))
+    enriched_party["name_am"] = party_names.get(slug, {}).get("name_am", "")
+    return enriched_party
 
 
 @app.get("/api/topics")

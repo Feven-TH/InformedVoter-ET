@@ -6,30 +6,41 @@ const state = {
   selectedTopicEntries: [],
   selectedPartySlug: null,
   search: "",
+  activeView: "topics",
+  isSidebarOpen: true,
+  sidebarWidth: 320,
+  isResizingSidebar: false,
+  expandedCards: new Set(),
 };
 
 const els = {
-  stats: document.querySelector("#stats"),
+  appShell: document.querySelector("#appShell"),
+  sidebar: document.querySelector("#sidebar"),
+  sidebarWordmark: document.querySelector(".brand--sidebar .brand-wordmark"),
+  sidebarResizer: document.querySelector("#sidebarResizer"),
+  sidebarToggle: document.querySelector("#sidebarToggle"),
+  sidebarBackdrop: document.querySelector("#sidebarBackdrop"),
   topicList: document.querySelector("#topicList"),
   topicCards: document.querySelector("#topicCards"),
-  topicCount: document.querySelector("#topicCount"),
   selectedTopicTitle: document.querySelector("#selectedTopicTitle"),
   subTopicFilter: document.querySelector("#subTopicFilter"),
   partyList: document.querySelector("#partyList"),
-  partyCount: document.querySelector("#partyCount"),
   selectedPartyTitle: document.querySelector("#selectedPartyTitle"),
   partyProfile: document.querySelector("#partyProfile"),
   globalSearch: document.querySelector("#globalSearch"),
-  refreshButton: document.querySelector("#refreshButton"),
   chatForm: document.querySelector("#chatForm"),
   chatInput: document.querySelector("#chatInput"),
   chatLog: document.querySelector("#chatLog"),
   viewTitle: document.querySelector("#viewTitle"),
   viewEyebrow: document.querySelector("#viewEyebrow"),
+  topbarBrand: document.querySelector("#topbarBrand"),
 };
 
 async function api(path, options) {
-  const response = await fetch(path, options);
+  const response = await fetch(path, {
+    cache: "no-store",
+    ...options,
+  });
   if (!response.ok) {
     let message = `${response.status} ${response.statusText}`;
     try {
@@ -64,18 +75,25 @@ async function loadData() {
 }
 
 function renderAll() {
-  renderStats();
   renderTopics();
   renderParties();
+  syncLayoutState();
 }
 
-function renderStats() {
-  const entryCount = state.topics.reduce((total, topic) => total + topic.entry_count, 0);
-  els.stats.innerHTML = `
-    <div class="stat-row"><span>Parties</span><strong>${state.parties.length}</strong></div>
-    <div class="stat-row"><span>Categories</span><strong>${state.topics.length}</strong></div>
-    <div class="stat-row"><span>Evidence cards</span><strong>${entryCount}</strong></div>
-  `;
+function getSidebarWidthBounds() {
+  let min = 240;
+  const max = 420;
+
+  if (els.sidebar && els.sidebarWordmark) {
+    const sidebarStyle = window.getComputedStyle(els.sidebar);
+    const paddingLeft = Number.parseFloat(sidebarStyle.paddingLeft) || 24;
+    const paddingRight = Number.parseFloat(sidebarStyle.paddingRight) || 24;
+    const titleWidth = Math.ceil(els.sidebarWordmark.scrollWidth);
+    const minForTitle = titleWidth + paddingLeft + paddingRight + 12;
+    min = Math.max(min, minForTitle);
+  }
+
+  return { min, max };
 }
 
 function matchesSearch(...values) {
@@ -84,15 +102,44 @@ function matchesSearch(...values) {
   return values.some((value) => String(value || "").toLowerCase().includes(query));
 }
 
+function getPartyMetadata(slug, fallbackName = "") {
+  return state.registry?.parties?.[slug] || { name: fallbackName || slug, name_am: "" };
+}
+
+function renderPartyName(nameAm, nameEn) {
+  const amharicName = escapeHtml(nameAm || "");
+  const englishName = escapeHtml(nameEn || "");
+  
+  // If we have both Amharic and English names and they're different
+  if (amharicName && englishName && nameAm !== nameEn) {
+    return `<strong class="party-name-amharic">${amharicName}</strong> <span class="party-name-english">${englishName}</span>`;
+  }
+  
+  // If we only have one name
+  if (amharicName) {
+    return `<strong class="party-name-amharic">${amharicName}</strong>`;
+  }
+  
+  if (englishName) {
+    return `<strong>${englishName}</strong>`;
+  }
+  
+  return "";
+}
+
+function renderPartyLabelFromSlug(slug, fallbackName = "") {
+  const meta = getPartyMetadata(slug, fallbackName);
+  return renderPartyName(meta.name_am, meta.name);
+}
+
 function renderTopics() {
   const topics = state.topics.filter((topic) =>
     matchesSearch(topic.display_name, topic.id, topic.sub_topics.map((item) => item.name).join(" "))
   );
-  els.topicCount.textContent = topics.length;
   els.topicList.innerHTML = topics.map((topic) => `
     <button class="list-item ${topic.id === state.selectedTopicId ? "active" : ""}" data-topic-id="${topic.id}" type="button">
       <strong>${escapeHtml(topic.display_name)}</strong>
-      <span>${topic.entry_count} cards · ${topic.party_count} parties · ${topic.sub_topics.length} sub-topics</span>
+      <span>Explore related evidence and sub-topics</span>
     </button>
   `).join("") || `<div class="empty">No categories match the search.</div>`;
 
@@ -135,13 +182,12 @@ function renderTopicCards() {
 
 function renderParties() {
   const parties = state.parties.filter((party) =>
-    matchesSearch(party.name, party.slug, party.ideology)
+    matchesSearch(party.name, party.name_am, party.slug, party.ideology)
   );
-  els.partyCount.textContent = parties.length;
   els.partyList.innerHTML = parties.map((party) => `
     <button class="list-item ${party.slug === state.selectedPartySlug ? "active" : ""}" data-party-slug="${party.slug}" type="button">
-      <strong>${escapeHtml(party.name)}</strong>
-      <span>${party.stance_count} indexed categories</span>
+      ${renderPartyName(party.name_am, party.name)}
+      <span>Open indexed positions and stance summaries</span>
     </button>
   `).join("") || `<div class="empty">No parties match the search.</div>`;
 
@@ -154,7 +200,7 @@ async function selectParty(slug) {
   state.selectedPartySlug = slug;
   renderParties();
   const party = await api(`/api/parties/${encodeURIComponent(slug)}`);
-  els.selectedPartyTitle.textContent = party.name || slug;
+  els.selectedPartyTitle.innerHTML = renderPartyName(party.name_am, party.name || slug);
   renderPartyProfile(party);
 }
 
@@ -180,15 +226,58 @@ function renderPartyProfile(party) {
     const video = stance.video_url
       ? `<a class="video-link" href="${escapeAttribute(stance.video_url)}" target="_blank" rel="noreferrer">Open citation</a>`
       : "";
+    const toggleIcon = `
+      <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+        <path d="M7 13L12 18L17 13M7 6L12 11L17 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
     return `
       <article class="stance-block">
         <h4>${escapeHtml(categoryName)}</h4>
         <div class="subtopic-row">${chips}</div>
-        <p>${escapeHtml(stance.position || "")}</p>
-        ${video}
+        <p class="stance-text">${escapeHtml(stance.position || "")}</p>
+        <div class="stance-footer">
+          ${video}
+          <button type="button" class="read-more-toggle" aria-label="Toggle full stance">${toggleIcon}</button>
+        </div>
       </article>
     `;
   }).join("");
+  
+  // Add Read More functionality to stance blocks
+  document.querySelectorAll(".stance-block").forEach((block, idx) => {
+    const p = block.querySelector("p.stance-text");
+    const readMoreBtn = block.querySelector(".read-more-toggle");
+    if (!p || !readMoreBtn) return;
+
+    const stanceId = `stance-${idx}`;
+    const isExpanded = state.expandedCards.has(stanceId);
+    if (isExpanded) {
+      p.classList.add("expanded");
+    }
+    readMoreBtn.classList.toggle("is-expanded", isExpanded);
+    readMoreBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (state.expandedCards.has(stanceId)) {
+        state.expandedCards.delete(stanceId);
+        p.classList.remove("expanded");
+        readMoreBtn.classList.remove("is-expanded");
+      } else {
+        state.expandedCards.add(stanceId);
+        p.classList.add("expanded");
+        readMoreBtn.classList.add("is-expanded");
+      }
+    });
+    
+    // Check if text is truncated
+    setTimeout(() => {
+      if (p.scrollHeight > p.clientHeight) {
+        readMoreBtn.style.display = "flex";
+      } else {
+        readMoreBtn.style.display = "none";
+      }
+    }, 0);
+  });
 }
 
 function renderEvidenceCards(container, entries) {
@@ -218,7 +307,7 @@ function renderEvidenceCards(container, entries) {
     }
     thumbLink.href = entry.video_url || "#";
     subTopic.textContent = entry.sub_topic_name || entry.category_name || "Evidence";
-    title.textContent = entry.party_name || entry.party_slug;
+    title.innerHTML = renderPartyLabelFromSlug(entry.party_slug, entry.party_name);
     summary.textContent = entry.summary || "";
     videoLink.href = entry.video_url || "#";
     if (!entry.video_url) videoLink.remove();
@@ -256,20 +345,108 @@ async function sendChat(message) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
     });
-    const references = (result.references || []).map((url) =>
-      `<a href="${escapeAttribute(url)}" target="_blank" rel="noreferrer">${escapeHtml(url)}</a>`
-    );
-    pending.innerHTML = `
-      <p>${escapeHtml(result.answer || "")}</p>
-      ${references.length ? `<div class="subtopic-row">${references.map((link) => `<span class="chip">${link}</span>`).join("")}</div>` : ""}
-    `;
+    pending.innerHTML = renderAnswerCard(result.answer || "");
   } catch (error) {
     pending.innerHTML = `<p>${escapeHtml(error.message)}</p>`;
   }
 }
 
+function renderAnswerCard(markdown) {
+  const lines = String(markdown || "").split(/\r?\n/);
+  const html = [];
+  let inList = false;
+  let hasContent = false;
+
+  const closeList = () => {
+    if (inList) {
+      html.push("</ul>");
+      inList = false;
+    }
+  };
+
+  const pushHeading = (level, text) => {
+    closeList();
+    hasContent = true;
+    if (level === 3) {
+      html.push(`<div class="response-card__badge">${renderInlineMarkdown(text)}</div>`);
+      return;
+    }
+    html.push(`<h4 class="response-card__party">${renderPartyHeading(text)}</h4>`);
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      closeList();
+      continue;
+    }
+
+    if (line.startsWith("#### ")) {
+      pushHeading(4, line.slice(5));
+      continue;
+    }
+
+    if (line.startsWith("### ")) {
+      pushHeading(3, line.slice(4));
+      continue;
+    }
+
+    if (line.startsWith("* ") || line.startsWith("- ")) {
+      if (!inList) {
+        html.push('<ul class="response-card__bullets">');
+        inList = true;
+      }
+      hasContent = true;
+      html.push(`<li>${renderInlineMarkdown(line.slice(2))}</li>`);
+      continue;
+    }
+
+    closeList();
+    hasContent = true;
+    html.push(`<p>${renderInlineMarkdown(line)}</p>`);
+  }
+
+  closeList();
+  return `<div class="response-card${hasContent ? "" : " response-card--empty"}">${html.join("")}</div>`;
+}
+
+function renderInlineMarkdown(value) {
+  const text = String(value || "");
+  const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  let html = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    html += renderBold(escapeHtml(text.slice(lastIndex, match.index)));
+    html += `<a href="${escapeAttribute(match[2])}" target="_blank" rel="noreferrer">${renderBold(escapeHtml(match[1]))}</a>`;
+    lastIndex = linkPattern.lastIndex;
+  }
+
+  html += renderBold(escapeHtml(text.slice(lastIndex)));
+  return html;
+}
+
+function renderPartyHeading(text) {
+  const headingText = String(text || "").trim();
+  const partyMatch = Object.values(state.registry?.parties || {}).find((party) =>
+    party && (party.name === headingText || party.name_am === headingText)
+  );
+
+  if (partyMatch) {
+    return renderPartyName(partyMatch.name_am, partyMatch.name);
+  }
+
+  return renderInlineMarkdown(headingText);
+}
+
+function renderBold(value) {
+  return value.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+}
+
 function setView(viewName) {
-  document.querySelectorAll(".nav-tab").forEach((button) => {
+  state.activeView = viewName;
+  document.querySelectorAll(".nav-link").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === viewName);
   });
   document.querySelectorAll(".view").forEach((view) => {
@@ -282,6 +459,59 @@ function setView(viewName) {
   };
   els.viewEyebrow.textContent = labels[viewName][0];
   els.viewTitle.textContent = labels[viewName][1];
+  if (window.matchMedia("(max-width: 767px)").matches) {
+    setSidebarOpen(false);
+  }
+}
+
+function setSidebarOpen(isOpen) {
+  state.isSidebarOpen = isOpen;
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  els.appShell.classList.toggle("sidebar-open", isOpen);
+  els.appShell.classList.toggle("sidebar-closed", !isOpen);
+  els.appShell.style.setProperty("--sidebar-width", `${isOpen ? state.sidebarWidth : 0}px`);
+  els.sidebarBackdrop.classList.toggle("visible", isOpen && isMobile);
+  els.topbarBrand.classList.toggle("visible", !isOpen);
+  els.sidebar.setAttribute("aria-hidden", String(!isOpen && isMobile));
+}
+
+function syncLayoutState() {
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  els.appShell.style.setProperty("--sidebar-width", `${state.isSidebarOpen && !isMobile ? state.sidebarWidth : 0}px`);
+  els.sidebarResizer.hidden = isMobile;
+  setSidebarOpen(state.isSidebarOpen);
+}
+
+function setSidebarWidth(width) {
+  const { min, max } = getSidebarWidthBounds();
+  state.sidebarWidth = Math.min(max, Math.max(min, Math.round(width)));
+  if (state.isSidebarOpen) {
+    els.appShell.style.setProperty("--sidebar-width", `${state.sidebarWidth}px`);
+  }
+}
+
+function startSidebarResize(event) {
+  if (window.matchMedia("(max-width: 767px)").matches) return;
+  event.preventDefault();
+  state.isResizingSidebar = true;
+  document.body.classList.add("is-resizing-sidebar");
+
+  const onMove = (moveEvent) => {
+    const nextWidth = moveEvent.clientX;
+    setSidebarWidth(nextWidth);
+  };
+
+  const stopResize = () => {
+    state.isResizingSidebar = false;
+    document.body.classList.remove("is-resizing-sidebar");
+    window.removeEventListener("pointermove", onMove);
+    window.removeEventListener("pointerup", stopResize);
+    window.removeEventListener("pointercancel", stopResize);
+  };
+
+  window.addEventListener("pointermove", onMove);
+  window.addEventListener("pointerup", stopResize);
+  window.addEventListener("pointercancel", stopResize);
 }
 
 function escapeHtml(value) {
@@ -297,8 +527,17 @@ function escapeAttribute(value) {
   return escapeHtml(value).replaceAll("`", "&#096;");
 }
 
-document.querySelectorAll(".nav-tab").forEach((button) => {
+document.querySelectorAll(".nav-link").forEach((button) => {
   button.addEventListener("click", () => setView(button.dataset.view));
+});
+
+els.sidebarToggle.addEventListener("click", () => setSidebarOpen(!state.isSidebarOpen));
+els.sidebarBackdrop.addEventListener("click", () => setSidebarOpen(false));
+els.sidebarResizer.addEventListener("pointerdown", startSidebarResize);
+
+window.addEventListener("resize", () => {
+  setSidebarWidth(state.sidebarWidth);
+  syncLayoutState();
 });
 
 els.globalSearch.addEventListener("input", () => {
@@ -309,7 +548,6 @@ els.globalSearch.addEventListener("input", () => {
 });
 
 els.subTopicFilter.addEventListener("change", renderTopicCards);
-els.refreshButton.addEventListener("click", loadData);
 els.chatForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const message = els.chatInput.value.trim();
@@ -321,3 +559,6 @@ els.chatForm.addEventListener("submit", (event) => {
 loadData().catch((error) => {
   document.body.innerHTML = `<main class="empty">${escapeHtml(error.message)}</main>`;
 });
+
+setView("topics");
+setSidebarOpen(true);
