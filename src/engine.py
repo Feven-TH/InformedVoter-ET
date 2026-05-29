@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from pathlib import Path
 from typing import Any, Literal
 import logging
@@ -27,6 +28,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 PARTY_INDEX_PATH = DATA_DIR / "party_index.json"
 TOPIC_INDEX_PATH = DATA_DIR / "topic_index.json"
+TIMESTAMP_RE = re.compile(r"[?&]t=(\d+)s?")
 
 IntentType = Literal["PARTY", "TOPIC", "GENERAL"]
 DEFAULT_MODEL_CANDIDATES = [
@@ -257,15 +259,70 @@ class InformedVoterEngine:
                 seen.add(video_url)
         return references
 
+    @staticmethod
+    def _timestamp_label(video_url: str) -> str:
+        match = TIMESTAMP_RE.search(video_url)
+        if not match:
+            return "citation"
+
+        total_seconds = int(match.group(1))
+        hours = total_seconds // 3600
+        minutes = (total_seconds % 3600) // 60
+        seconds = total_seconds % 60
+
+        if hours:
+            return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+        return f"{minutes:02d}:{seconds:02d}"
+
+    def _format_answer_context(self, entries: list[dict[str, str]]) -> list[dict[str, str]]:
+        formatted_entries: list[dict[str, str]] = []
+        previous_url = ""
+
+        for entry in entries:
+            video_url = entry.get("video_url", "").strip()
+            if video_url and video_url == previous_url:
+                continue
+
+            previous_url = video_url
+            citation_markdown = (
+                f"[{self._timestamp_label(video_url)}]({video_url})"
+                if video_url
+                else ""
+            )
+
+            formatted_entries.append(
+                {
+                    "party_slug": str(entry.get("party_slug", "")),
+                    "party_name": str(entry.get("party_name", "")),
+                    "topic": str(entry.get("topic") or entry.get("category_name", "")),
+                    "sub_topic": str(entry.get("sub_topic_name", "")),
+                    "summary": str(entry.get("summary", "")),
+                    "citation_markdown": citation_markdown,
+                }
+            )
+
+        return formatted_entries
+
     def _synthesize_answer(self, message: str, entries: list[dict[str, str]]) -> str:
         model = self._require_model()
-        bounded_context = json.dumps(entries[:24], ensure_ascii=False, indent=2)
+        bounded_context = json.dumps(self._format_answer_context(entries[:24]), ensure_ascii=False, indent=2)
         prompt = f"""
 You are InformedVoter-ET's answer synthesizer.
 
 Use only the JSON context below. Do not use external knowledge, assumptions, or uncited party stances.
 If the context is insufficient, say so plainly.
-Write a concise, neutral answer in natural language.
+
+Return Markdown only.
+Format the answer as party cards:
+- Start with a level-3 heading that names the compared topic.
+- Group evidence under level-4 headings using the party name, for example: "#### Prosperity Party".
+- Use bullet points under each party.
+- Each bullet should make one specific point and include exactly one inline citation when a citation is available.
+- Inline citations must use the provided citation_markdown value, such as [01:22:19](https://www.youtube.com/watch?v=...&t=4939s).
+- Do not dump raw links.
+- Do not add a separate "References", "Sources", or link list at the bottom.
+- Drop back-to-back duplicate timestamps and do not repeat the same citation for adjacent bullets unless it supports a distinct point.
+- Keep the tone concise, neutral, and evidence-based.
 
 User question:
 {message}

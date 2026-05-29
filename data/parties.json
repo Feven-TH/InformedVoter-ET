@@ -1,74 +1,98 @@
 {
   "afar-peoples-party": {
-    "name": "Afar People's Party"
+    "name": "Afar People's Party",
+    "name_am": "የአፋር ህዝብ ፓርቲ"
   },
   "amhara-democratic-force-movement": {
-    "name": "Amhara Democratic Force Movement"
+    "name": "Amhara Democratic Force Movement",
+    "name_am": "የአማራ ዴሞክራሲያዊ ኃይል ንቅናቄ"
   },
   "balderas-for-true-democracy-party": {
-    "name": "Balderas for True Democracy Party"
+    "name": "Balderas for True Democracy Party",
+    "name_am": "ባልደራስ ለእውነተኛ ዴሞክራሲ"
   },
   "coalition-for-ethiopian-unity-party": {
-    "name": "Coalition for Ethiopian Unity Party"
+    "name": "Coalition for Ethiopian Unity Party",
+    "name_am": "ትብብር ለኢትዮጵያ አንድነት"
   },
   "ethiopian-citizens-for-social-justice": {
-    "name": "Ethiopian Citizens for Social Justice"
+    "name": "Ethiopian Citizens for Social Justice",
+    "name_am": "የኢትዮጵያ ዜጎች ለማኅበራዊ ፍትህ ፓርቲ"
   },
   "ethiopian-democratic-union": {
-    "name": "Ethiopian Democratic Union"
+    "name": "Ethiopian Democratic Union",
+    "name_am": "የኢትዮጵያ ዴሞክራቲክ ኅብረት"
   },
   "ethiopian-federal-democratic-unity-forum": {
-    "name": "Ethiopian Federal Democratic Unity Forum"
+    "name": "Ethiopian Federal Democratic Unity Forum",
+    "name_am": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ"
   },
   "ethiopian-national-unity-party": {
-    "name": "Ethiopian National Unity Party"
+    "name": "Ethiopian National Unity Party",
+    "name_am": "የኢትዮጵያ ብሔራዊ አንድነት ፓርቲ"
   },
   "ethiopian-social-democratic-party": {
-    "name": "Ethiopian Social Democratic Party"
+    "name": "Ethiopian Social Democratic Party",
+    "name_am": "የኢትዮጵያ ሶሻል ዴሞክራቲክ ፓርቲ"
   },
   "freedom-and-equality-party": {
-    "name": "Freedom and Equality Party"
+    "name": "Freedom and Equality Party",
+    "name_am": "ነፃነትና እኩልነት ፓርቲ"
   },
   "gogot-for-gurage-unity-and-justice-party": {
-    "name": "Gogot for Gurage Unity and Justice Party"
+    "name": "Gogot for Gurage Unity and Justice Party",
+    "name_am": "ጎጎት ለጉራጌ አንድነት እና ፍትህ ፓርቲ"
   },
   "hibir-ethiopia-democratic-party": {
-    "name": "Hibir Ethiopia Democratic Party"
+    "name": "Hibir Ethiopia Democratic Party",
+    "name_am": "ኅብር ኢትዮጵያ ዴሞክራሲያዊ ፓርቲ"
   },
   "kucha-peoples-democratic-party": {
-    "name": "Kucha People's Democratic Party"
+    "name": "Kucha People's Democratic Party",
+    "name_am": "የቁጫ ሕዝብ ዴሞክራሲያዊ ፓርቲ"
   },
   "kush-peoples-national-movement-party": {
-    "name": "Kush Peoples' National Movement Party"
+    "name": "Kush Peoples' National Movement Party",
+    "name_am": "የኩሽ ህዝቦች ብሔራዊ ንቅናቄ"
   },
   "national-movement-of-amhara": {
-    "name": "National Movement of Amhara"
+    "name": "National Movement of Amhara",
+    "name_am": "የአማራ ብሔራዊ ንቅናቄ"
   },
   "new-generation-party": {
-    "name": "New Generation Party"
+    "name": "New Generation Party",
+    "name_am": "አዲስ ትውልድ ፓርቲ"
   },
   "oromo-liberation-front": {
-    "name": "Oromo Liberation Front"
+    "name": "Oromo Liberation Front",
+    "name_am": "የኦሮሞ ነፃነት ግንባር"
   },
   "peace-for-ethiopia-coalition": {
-    "name": "Peace for Ethiopia Coalition"
+    "name": "Peace for Ethiopia Coalition",
+    "name_am": "ሰላም ለኢትዮጵያ ጥምረት"
   },
   "prosperity-party": {
-    "name": "Prosperity Party"
+    "name": "Prosperity Party",
+    "name_am": "ብልጽግና ፓርቲ"
   },
   "qimant-democratic-party": {
-    "name": "Qimant Democratic Party"
+    "name": "Qimant Democratic Party",
+    "name_am": "የቅማንት ዲሞክራሲያዊ ፓርቲ"
   },
   "raya-rayuma-democratic-party": {
-    "name": "Raya Rayuma Democratic Party"
+    "name": "Raya Rayuma Democratic Party",
+    "name_am": "ራያ ራዩማ ዴሞክራሲያዊ ፓርቲ"
   },
   "renaissance-party": {
-    "name": "Renaissance Party"
+    "name": "Renaissance Party",
+    "name_am": "ህዳሴ ፓርቲ"
   },
   "sidama-unity-party": {
-    "name": "Sidama Unity Party"
+    "name": "Sidama Unity Party",
+    "name_am": "የሲዳማ አንድነት ፓርቲ"
   },
   "wollo-peoples-democratic-party": {
-    "name": "Wollo Peoples' Democratic Party"
+    "name": "Wollo Peoples' Democratic Party",
+    "name_am": "የወሎ ህዝቦች ዴሞክራሲያዊ ፓርቲ"
   }
 }

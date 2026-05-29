@@ -29,7 +29,10 @@ const els = {
 };
 
 async function api(path, options) {
-  const response = await fetch(path, options);
+  const response = await fetch(path, {
+    cache: "no-store",
+    ...options,
+  });
   if (!response.ok) {
     let message = `${response.status} ${response.statusText}`;
     try {
@@ -84,6 +87,36 @@ function matchesSearch(...values) {
   return values.some((value) => String(value || "").toLowerCase().includes(query));
 }
 
+function getPartyMetadata(slug, fallbackName = "") {
+  return state.registry?.parties?.[slug] || { name: fallbackName || slug, name_am: "" };
+}
+
+function renderPartyName(nameAm, nameEn) {
+  const amharicName = escapeHtml(nameAm || "");
+  const englishName = escapeHtml(nameEn || "");
+  
+  // If we have both Amharic and English names and they're different
+  if (amharicName && englishName && nameAm !== nameEn) {
+    return `<strong class="party-name-amharic">${amharicName}</strong> <span class="party-name-english">${englishName}</span>`;
+  }
+  
+  // If we only have one name
+  if (amharicName) {
+    return `<strong class="party-name-amharic">${amharicName}</strong>`;
+  }
+  
+  if (englishName) {
+    return `<strong>${englishName}</strong>`;
+  }
+  
+  return "";
+}
+
+function renderPartyLabelFromSlug(slug, fallbackName = "") {
+  const meta = getPartyMetadata(slug, fallbackName);
+  return renderPartyName(meta.name_am, meta.name);
+}
+
 function renderTopics() {
   const topics = state.topics.filter((topic) =>
     matchesSearch(topic.display_name, topic.id, topic.sub_topics.map((item) => item.name).join(" "))
@@ -135,12 +168,12 @@ function renderTopicCards() {
 
 function renderParties() {
   const parties = state.parties.filter((party) =>
-    matchesSearch(party.name, party.slug, party.ideology)
+    matchesSearch(party.name, party.name_am, party.slug, party.ideology)
   );
   els.partyCount.textContent = parties.length;
   els.partyList.innerHTML = parties.map((party) => `
     <button class="list-item ${party.slug === state.selectedPartySlug ? "active" : ""}" data-party-slug="${party.slug}" type="button">
-      <strong>${escapeHtml(party.name)}</strong>
+      ${renderPartyName(party.name_am, party.name)}
       <span>${party.stance_count} indexed categories</span>
     </button>
   `).join("") || `<div class="empty">No parties match the search.</div>`;
@@ -154,7 +187,7 @@ async function selectParty(slug) {
   state.selectedPartySlug = slug;
   renderParties();
   const party = await api(`/api/parties/${encodeURIComponent(slug)}`);
-  els.selectedPartyTitle.textContent = party.name || slug;
+  els.selectedPartyTitle.innerHTML = renderPartyName(party.name_am, party.name || slug);
   renderPartyProfile(party);
 }
 
@@ -218,7 +251,7 @@ function renderEvidenceCards(container, entries) {
     }
     thumbLink.href = entry.video_url || "#";
     subTopic.textContent = entry.sub_topic_name || entry.category_name || "Evidence";
-    title.textContent = entry.party_name || entry.party_slug;
+    title.innerHTML = renderPartyLabelFromSlug(entry.party_slug, entry.party_name);
     summary.textContent = entry.summary || "";
     videoLink.href = entry.video_url || "#";
     if (!entry.video_url) videoLink.remove();
@@ -256,16 +289,103 @@ async function sendChat(message) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
     });
-    const references = (result.references || []).map((url) =>
-      `<a href="${escapeAttribute(url)}" target="_blank" rel="noreferrer">${escapeHtml(url)}</a>`
-    );
-    pending.innerHTML = `
-      <p>${escapeHtml(result.answer || "")}</p>
-      ${references.length ? `<div class="subtopic-row">${references.map((link) => `<span class="chip">${link}</span>`).join("")}</div>` : ""}
-    `;
+    pending.innerHTML = renderAnswerCard(result.answer || "");
   } catch (error) {
     pending.innerHTML = `<p>${escapeHtml(error.message)}</p>`;
   }
+}
+
+function renderAnswerCard(markdown) {
+  const lines = String(markdown || "").split(/\r?\n/);
+  const html = [];
+  let inList = false;
+  let hasContent = false;
+
+  const closeList = () => {
+    if (inList) {
+      html.push("</ul>");
+      inList = false;
+    }
+  };
+
+  const pushHeading = (level, text) => {
+    closeList();
+    hasContent = true;
+    if (level === 3) {
+      html.push(`<div class="response-card__badge">${renderInlineMarkdown(text)}</div>`);
+      return;
+    }
+    html.push(`<h4 class="response-card__party">${renderPartyHeading(text)}</h4>`);
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      closeList();
+      continue;
+    }
+
+    if (line.startsWith("#### ")) {
+      pushHeading(4, line.slice(5));
+      continue;
+    }
+
+    if (line.startsWith("### ")) {
+      pushHeading(3, line.slice(4));
+      continue;
+    }
+
+    if (line.startsWith("* ") || line.startsWith("- ")) {
+      if (!inList) {
+        html.push('<ul class="response-card__bullets">');
+        inList = true;
+      }
+      hasContent = true;
+      html.push(`<li>${renderInlineMarkdown(line.slice(2))}</li>`);
+      continue;
+    }
+
+    closeList();
+    hasContent = true;
+    html.push(`<p>${renderInlineMarkdown(line)}</p>`);
+  }
+
+  closeList();
+  return `<div class="response-card${hasContent ? "" : " response-card--empty"}">${html.join("")}</div>`;
+}
+
+function renderInlineMarkdown(value) {
+  const text = String(value || "");
+  const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  let html = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    html += renderBold(escapeHtml(text.slice(lastIndex, match.index)));
+    html += `<a href="${escapeAttribute(match[2])}" target="_blank" rel="noreferrer">${renderBold(escapeHtml(match[1]))}</a>`;
+    lastIndex = linkPattern.lastIndex;
+  }
+
+  html += renderBold(escapeHtml(text.slice(lastIndex)));
+  return html;
+}
+
+function renderPartyHeading(text) {
+  const headingText = String(text || "").trim();
+  const partyMatch = Object.values(state.registry?.parties || {}).find((party) =>
+    party && (party.name === headingText || party.name_am === headingText)
+  );
+
+  if (partyMatch) {
+    return renderPartyName(partyMatch.name_am, partyMatch.name);
+  }
+
+  return renderInlineMarkdown(headingText);
+}
+
+function renderBold(value) {
+  return value.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
 
 function setView(viewName) {

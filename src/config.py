@@ -8,6 +8,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 TOPIC_REGISTRY_PATH = BASE_DIR / "data" / "topic_registry.json"
+PARTY_NAMES_PATH = BASE_DIR / "data" / "parties.json"
 
 DEFAULT_TOPIC_REGISTRY: dict[str, str] = {
     "federalism": "Stances on federalism, ethnic identity, regional boundaries, self-administration, or decentralization.",
@@ -35,6 +36,33 @@ def load_topic_registry() -> dict[str, str]:
 
 
 TOPIC_REGISTRY: dict[str, str] = load_topic_registry()
+
+
+def load_party_name_registry() -> dict[str, dict[str, str]]:
+    try:
+        with PARTY_NAMES_PATH.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+
+    if not isinstance(payload, dict):
+        return {}
+
+    registry: dict[str, dict[str, str]] = {}
+    for slug, value in payload.items():
+        if not isinstance(slug, str) or not isinstance(value, dict):
+            continue
+        name = value.get("name")
+        name_am = value.get("name_am")
+        if isinstance(name, str) or isinstance(name_am, str):
+            registry[slug] = {
+                "name": name if isinstance(name, str) else slug,
+                "name_am": name_am if isinstance(name_am, str) else "",
+            }
+    return registry
+
+
+PARTY_NAME_REGISTRY: dict[str, dict[str, str]] = load_party_name_registry()
 
 PARTY_REGISTRY: dict[str, list[str]] = {
     "afar-peoples-party": ["APP", "Afar People's Party", "Afar Party"],

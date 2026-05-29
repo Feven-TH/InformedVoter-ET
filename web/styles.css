@@ -368,6 +368,52 @@ select:focus {
   color: var(--red);
 }
 
+.response-card {
+  display: grid;
+  gap: 12px;
+}
+
+.response-card__badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid rgba(33, 122, 75, 0.2);
+  background: #eef6f2;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.response-card__party {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.response-card__bullets {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 8px;
+}
+
+.response-card__bullets li {
+  line-height: 1.55;
+}
+
+.response-card p {
+  color: inherit;
+  line-height: 1.6;
+}
+
+.response-card--empty {
+  opacity: 0.85;
+}
+
 .chat-form {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 108px;
@@ -389,6 +435,19 @@ select:focus {
   border: 1px dashed var(--line);
   background: rgba(255, 255, 255, 0.7);
   padding: 24px;
+  color: var(--muted);
+}
+
+.party-name-amharic {
+  display: block;
+  font-size: 1.15em;
+  font-weight: 900;
+}
+
+.party-name-english {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 500;
   color: var(--muted);
 }
 
