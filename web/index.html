@@ -7,39 +7,41 @@
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <div class="app-shell">
-      <aside class="sidebar">
-        <div class="brand">
-          <div class="brand-mark">IV</div>
-          <div>
-            <h1>InformedVoter-ET</h1>
-            <p>Election positions from indexed debate evidence</p>
+    <div class="app-shell sidebar-open" id="appShell">
+      <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+        <div class="brand brand--sidebar">
+          <h1 class="brand-wordmark"><span>InformedVoter</span><span class="brand-accent">.et</span></h1>
+        </div>
+
+        <div class="side-panel">
+          <label class="search-label" for="globalSearch">Search</label>
+          <div class="search-field">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="globalSearch" type="search" placeholder="Party, topic, stance..." autocomplete="off" />
           </div>
         </div>
 
-        <nav class="nav-tabs" aria-label="Primary">
-          <button class="nav-tab active" data-view="topics" type="button">Topics</button>
-          <button class="nav-tab" data-view="parties" type="button">Parties</button>
-          <button class="nav-tab" data-view="chat" type="button">Chat</button>
+        <nav class="nav-links" aria-label="Primary">
+          <button class="nav-link active" data-view="topics" type="button">Policy Topics </button>
+          <button class="nav-link" data-view="chat" type="button">Active Chat Assistant</button>
+          <button class="nav-link" data-view="parties" type="button">Competing Parties</button>
         </nav>
-
-        <div class="side-panel">
-          <label for="globalSearch">Search</label>
-          <input id="globalSearch" type="search" placeholder="Party, topic, stance..." autocomplete="off" />
-        </div>
-
-        <div class="stats" id="stats"></div>
       </aside>
+
+      <div class="sidebar-resizer" id="sidebarResizer" aria-hidden="true"></div>
+
+      <button class="sidebar-backdrop" id="sidebarBackdrop" type="button" aria-label="Close sidebar"></button>
 
       <main class="workspace">
         <header class="topbar">
-          <div>
+          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar">☰</button>
+          <div class="topbar-context">
             <p class="eyebrow" id="viewEyebrow">Topic Comparison</p>
             <h2 id="viewTitle">Browse Evidence by Category</h2>
           </div>
-          <button class="icon-button" id="refreshButton" type="button" title="Refresh data" aria-label="Refresh data">
-            <span aria-hidden="true">↻</span>
-          </button>
+          <div class="topbar-brand" id="topbarBrand" aria-label="InformedVoter.et">
+            <span>InformedVoter</span><span class="brand-accent">.et</span>
+          </div>
         </header>
 
         <section class="view active" id="topicsView">
@@ -47,7 +49,6 @@
             <div class="list-column">
               <div class="section-heading">
                 <h3>Categories</h3>
-                <span id="topicCount">0</span>
               </div>
               <div class="topic-list" id="topicList"></div>
             </div>
@@ -71,7 +72,6 @@
             <div class="list-column">
               <div class="section-heading">
                 <h3>Parties</h3>
-                <span id="partyCount">0</span>
               </div>
               <div class="party-list" id="partyList"></div>
             </div>
@@ -114,7 +114,9 @@
           </div>
           <h4></h4>
           <p></p>
-          <a class="video-link" target="_blank" rel="noreferrer">Open citation</a>
+          <div class="card-footer">
+            <a class="video-link" target="_blank" rel="noreferrer">Open citation</a>
+          </div>
         </div>
       </article>
     </template>
