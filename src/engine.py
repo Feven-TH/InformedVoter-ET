@@ -131,7 +131,11 @@ class InformedVoterEngine:
 
         if not entries:
             return ChatResult(
-                answer="I could not match that question to the supported party and topic indexes.",
+                answer=(
+                    "I can only answer questions regarding official election platforms and candidate info."
+                    " I'm unable to provide general knowledge, opinions, or predictions. "
+                    "Please try a specific election-related question!"
+                ),
                 references=[],
             )
 

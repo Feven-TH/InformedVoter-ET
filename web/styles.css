@@ -996,3 +996,72 @@ body.is-resizing-sidebar * {
     display: none;
   }
 }
+
+/* ==========================================================================
+   MOBILE VIEWPORT & KEYBOARD FIXES (Added at the very bottom of the file)
+   ========================================================================== */
+@media (max-width: 767px) {
+  /* 1. Prevent the main app wrapper from leaking beyond the screen boundaries */
+  body,
+  .app-shell,
+  .workspace {
+    height: 100vh;
+    height: 100dvh; /* Modern dynamic viewport height for mobile browsers */
+    overflow: hidden;
+  }
+
+  /* 2. Force the active view area to behave like a flex container */
+  .view.active {
+    display: flex !important;
+    flex-direction: column;
+    height: calc(100dvh - 76px); /* Viewport minus the topbar height */
+    overflow: hidden;
+  }
+
+  /* 3. Re-structure the chat container to pin elements */
+  .chat-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100% !important; /* Spans exact remaining height */
+    min-height: 0 !important; /* Prevents auto-expanding */
+  }
+
+  /* 4. Let the log expand to use all room, forcing input to the absolute bottom */
+  .chat-log {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
+    padding-bottom: 16px;
+  }
+
+  /* 5. Transform the chat bar into a sticky docked footer */
+  .chat-form {
+    position: sticky;
+    bottom: 0;
+    z-index: 30;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 48px;
+    gap: 8px;
+
+    /* Keep the form centered with equal horizontal padding */
+    width: min(calc(100% - 32px), 820px);
+    margin: 0 auto 12px;
+    padding: 12px 16px;
+    background: var(--paper);
+    border-top: 1px solid var(--line);
+
+    /* Optional visual polish for mobile docking */
+    border-radius: 12px;
+    box-shadow: 0 -8px 24px rgba(23, 32, 28, 0.12); /* slightly stronger shadow */
+  }
+
+  /* Make the input inside the chat bar rounded and comfortable to tap */
+  .chat-form input {
+    border-radius: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 2px 8px rgba(23, 32, 28, 0.06);
+  }
+}
